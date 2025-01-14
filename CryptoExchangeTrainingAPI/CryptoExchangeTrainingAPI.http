@@ -1,0 +1,6 @@
+@CryptoExchangeTrainingAPI_HostAddress = http://localhost:5178
+
+GET {{CryptoExchangeTrainingAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

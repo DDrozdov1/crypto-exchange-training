@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CryptoExchangeTrainingAPI</name>
+    </assembly>
+    <members>
+        <member name="T:CryptoExchangeTrainingAPI.Controllers.AssetController">
+            <summary>
+            Контроллер для управления активами пользователя.
+            </summary>
+        </member>
+        <member name="M:CryptoExchangeTrainingAPI.Controllers.AssetController.#ctor(CryptoExchangeTrainingAPI.Data.ApplicationDbContext)">
+            <summary>
+            Конструктор контроллера AssetController.
+            </summary>
+            <param name="context">Контекст базы данных.</param>
+        </member>
+        <member name="M:CryptoExchangeTrainingAPI.Controllers.AssetController.GetUserAssets">
+            <summary>
+            Получить список активов пользователя.
+            </summary>
+            <returns>Список активов текущего пользователя.</returns>
+            <response code="200">Список активов успешно получен.</response>
+            <response code="401">Пользователь не авторизован.</response>
+        </member>
+        <member name="T:CryptoExchangeTrainingAPI.Controllers.AuthController">
+            <summary>
+            Контроллер для управления аутентификацией и регистрацией пользователей.
+            </summary>
+        </member>
+        <member name="M:CryptoExchangeTrainingAPI.Controllers.AuthController.#ctor(Microsoft.AspNetCore.Identity.UserManager{CryptoExchangeTrainingAPI.Models.User},Microsoft.AspNetCore.Identity.SignInManager{CryptoExchangeTrainingAPI.Models.User},Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Конструктор AuthController.
+            </summary>
+            <param name="userManager">Менеджер пользователей Identity.</param>
+            <param name="signInManager">Менеджер для управления входом пользователей.</param>
+            <param name="configuration">Конфигурация приложения.</param>
+        </member>
+        <member name="M:CryptoExchangeTrainingAPI.Controllers.AuthController.Register(CryptoExchangeTrainingAPI.Models.RegisterDto)">
+            <summary>
+            Регистрация нового пользователя.
+            </summary>
+            <param name="model">Данные для регистрации пользователя.</param>
+            <returns>Результат регистрации.</returns>
+            <response code="200">Пользователь успешно зарегистрирован.</response>
+            <response code="400">Некорректные данные для регистрации.</response>
+        </member>
+        <member name="M:CryptoExchangeTrainingAPI.Controllers.AuthController.Login(CryptoExchangeTrainingAPI.Models.LoginDto)">
+            <summary>
+            Авторизация пользователя.
+            </summary>
+            <param name="model">Данные для входа пользователя.</param>
+            <returns>JWT токен и информация о пользователе.</returns>
+            <response code="200">Успешная авторизация.</response>
+            <response code="400">Некорректные данные для входа.</response>
+            <response code="401">Неверный email или пароль.</response>
+        </member>
+        <member name="T:CryptoExchangeTrainingAPI.Controllers.MarketDataController">
+            <summary>
+            Контроллер для получения рыночных данных.
+            </summary>
+        </member>
+        <member name="M:CryptoExchangeTrainingAPI.Controllers.MarketDataController.#ctor(CryptoExchangeTrainingAPI.Services.IMarketService)">
+            <summary>
+            Конструктор MarketDataController.
+            </summary>
+            <param name="marketService">Сервис для получения рыночных данных.</param>
+        </member>
+        <member name="M:CryptoExchangeTrainingAPI.Controllers.MarketDataController.GetMarketPrice(System.String)">
+            <summary>
+            Получить текущую цену для торговой пары.
+            </summary>
+            <param name="pair">Торговая пара (например, BTCUSDT).</param>
+            <returns>Цена для указанной пары.</returns>
+            <response code="200">Цена успешно получена.</response>
+            <response code="400">Ошибка при получении рыночных данных.</response>
+        </member>
+        <member name="T:CryptoExchangeTrainingAPI.Controllers.NotificationController">
+            <summary>
+            Контроллер для управления уведомлениями.
+            </summary>
+        </member>
+        <member name="M:CryptoExchangeTrainingAPI.Controllers.NotificationController.#ctor(CryptoExchangeTrainingAPI.Data.ApplicationDbContext)">
+            <summary>
+            Конструктор контроллера NotificationController.
+            </summary>
+            <param name="context">Контекст базы данных.</param>
+        </member>
+        <member name="M:CryptoExchangeTrainingAPI.Controllers.NotificationController.GetNotifications">
+            <summary>
+            Получить список уведомлений текущего пользователя.
+            </summary>
+            <returns>Список уведомлений пользователя.</returns>
+        </member>
+        <member name="M:CryptoExchangeTrainingAPI.Controllers.NotificationController.MarkAsRead(System.Int32)">
+            <summary>
+            Пометить уведомление как прочитанное.
+            </summary>
+            <param name="id">ID уведомления.</param>
+            <returns>Результат операции.</returns>
+        </member>
+        <member name="M:CryptoExchangeTrainingAPI.Controllers.NotificationController.DeleteNotification(System.Int32)">
+            <summary>
+            Удалить уведомление.
+            </summary>
+        </member>
+        <member name="T:CryptoExchangeTrainingAPI.Controllers.TradeController">
+            <summary>
+            Контроллер для управления сделками.
+            </summary>
+        </member>
+        <member name="M:CryptoExchangeTrainingAPI.Controllers.TradeController.#ctor(CryptoExchangeTrainingAPI.Data.ApplicationDbContext,CryptoExchangeTrainingAPI.Services.IMarketService,CryptoExchangeTrainingAPI.Services.INotificationService)">
+            <summary>
+            Конструктор контроллера TradeController.
+            </summary>
+            <param name="context">Контекст базы данных.</param>
+            <param name="marketService">Сервис для получения рыночных данных.</param>
+        </member>
+        <member name="M:CryptoExchangeTrainingAPI.Controllers.TradeController.GetTradeHistory">
+            <summary>
+            Получить историю сделок текущего пользователя.
+            </summary>
+            <returns>Список сделок.</returns>
+        </member>
+        <member name="M:CryptoExchangeTrainingAPI.Controllers.TradeController.OpenTrade(CryptoExchangeTrainingAPI.Models.OpenTradeRequestDto)">
+            <summary>
+            Открыть новую сделку.
+            </summary>
+            <param name="request">Данные для открытия сделки.</param>
+            <returns>Информация о созданной сделке.</returns>
+        </member>
+        <member name="M:CryptoExchangeTrainingAPI.Controllers.TradeController.CloseTrade(System.Int32)">
+            <summary>
+            Закрыть сделку.
+            </summary>
+            <param name="id">ID сделки.</param>
+            <returns>Информация о закрытой сделке.</returns>
+        </member>
+        <member name="T:CryptoExchangeTrainingAPI.Controllers.UserController">
+            <summary>
+            Контроллер для управления пользователями.
+            </summary>
+        </member>
+        <member name="M:CryptoExchangeTrainingAPI.Controllers.UserController.#ctor(CryptoExchangeTrainingAPI.Data.ApplicationDbContext)">
+            <summary>
+            Конструктор UserController.
+            </summary>
+            <param name="context">Контекст базы данных.</param>
+        </member>
+        <member name="M:CryptoExchangeTrainingAPI.Controllers.UserController.GetProfile">
+            <summary>
+            Получить профиль текущего пользователя.
+            </summary>
+            <returns>Данные профиля пользователя.</returns>
+            <response code="200">Профиль успешно получен.</response>
+            <response code="401">Пользователь не авторизован.</response>        
+        </member>
+        <member name="M:CryptoExchangeTrainingAPI.Controllers.UserController.Deposit(CryptoExchangeTrainingAPI.Models.DepositRequestDto)">
+            <summary>
+            Пополнить баланс пользователя.
+            </summary>
+            <param name="request">Сумма для пополнения.</param>
+            <returns>Обновленный баланс пользователя.</returns>
+            <response code="200">Баланс успешно пополнен.</response>
+            <response code="400">Некорректные данные для пополнения.</response>
+        </member>
+        <member name="T:CryptoExchangeTrainingAPI.Migrations.IdentitySetup">
+            <inheritdoc />
+        </member>
+        <member name="M:CryptoExchangeTrainingAPI.Migrations.IdentitySetup.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CryptoExchangeTrainingAPI.Migrations.IdentitySetup.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CryptoExchangeTrainingAPI.Migrations.IdentitySetup.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
