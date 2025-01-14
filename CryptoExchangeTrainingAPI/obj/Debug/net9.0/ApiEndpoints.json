@@ -42,6 +42,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "CryptoExchangeTrainingAPI.Controllers.ChartController",
+    "Method": "GetHistoricalData",
+    "RelativePath": "api/Chart/historical/{pair}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pair",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "startTime",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "endTime",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CryptoExchangeTrainingAPI.Controllers.MarketDataController",
     "Method": "GetMarketPrice",
     "RelativePath": "api/MarketData/{pair}",
@@ -166,5 +192,21 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CryptoExchangeTrainingAPI.Controllers.WebSocketController",
+    "Method": "GetPriceWebSocket",
+    "RelativePath": "ws/price",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

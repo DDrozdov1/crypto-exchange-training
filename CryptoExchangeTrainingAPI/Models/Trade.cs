@@ -22,6 +22,7 @@ namespace CryptoExchangeTrainingAPI.Models
         public string Status { get; set; } = "open"; // Статус сделки ("open" или "closed")
         public DateTime OpenedAt { get; set; } = DateTime.UtcNow; // Время открытия сделки
         public DateTime? ClosedAt { get; set; } // Время закрытия сделки
+        public decimal? Fee { get; set; }
 
         // Связь с пользователем
         [JsonIgnore]

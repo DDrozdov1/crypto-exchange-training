@@ -3,6 +3,7 @@ using System;
 using CryptoExchangeTrainingAPI.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace CryptoExchangeTrainingAPI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250114071052_AddHistoricalData")]
+    partial class AddHistoricalData
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -97,46 +100,6 @@ namespace CryptoExchangeTrainingAPI.Migrations
                     b.ToTable("Notifications");
                 });
 
-            modelBuilder.Entity("CryptoExchangeTrainingAPI.Models.Order", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<decimal>("Amount")
-                        .HasColumnType("numeric");
-
-                    b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.Property<string>("Pair")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<decimal>("Price")
-                        .HasColumnType("numeric");
-
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("Type")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("UserId")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("Orders");
-                });
-
             modelBuilder.Entity("CryptoExchangeTrainingAPI.Models.Trade", b =>
                 {
                     b.Property<int>("Id")
@@ -155,9 +118,6 @@ namespace CryptoExchangeTrainingAPI.Migrations
                         .HasColumnType("numeric");
 
                     b.Property<decimal?>("ExitPrice")
-                        .HasColumnType("numeric");
-
-                    b.Property<decimal?>("Fee")
                         .HasColumnType("numeric");
 
                     b.Property<int>("Leverage")
@@ -436,17 +396,6 @@ namespace CryptoExchangeTrainingAPI.Migrations
                 {
                     b.HasOne("CryptoExchangeTrainingAPI.Models.User", "User")
                         .WithMany("Notifications")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("User");
-                });
-
-            modelBuilder.Entity("CryptoExchangeTrainingAPI.Models.Order", b =>
-                {
-                    b.HasOne("CryptoExchangeTrainingAPI.Models.User", "User")
-                        .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();

@@ -96,6 +96,44 @@
         }
       }
     },
+    "/api/Chart/historical/{pair}": {
+      "get": {
+        "tags": [
+          "Chart"
+        ],
+        "parameters": [
+          {
+            "name": "pair",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "startTime",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "endTime",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/MarketData/{pair}": {
       "get": {
         "tags": [
@@ -304,6 +342,18 @@
           },
           "400": {
             "description": "Некорректные данные для пополнения."
+          }
+        }
+      }
+    },
+    "/ws/price": {
+      "get": {
+        "tags": [
+          "WebSocket"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
           }
         }
       }

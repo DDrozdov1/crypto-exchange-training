@@ -16,7 +16,10 @@ namespace CryptoExchangeTrainingAPI.Data
         public DbSet<MarketData> MarketData { get; set; } = null!;
         public DbSet<UserAsset> UserAssets { get; set; } = null!;
         public DbSet<Notification> Notifications { get; set; } = null!;
-        // SaveChangesAsync уже реализован в DbContext, но мы добавляем его явно в интерфейс для мокинга
+        public DbSet<HistoricalData> HistoricalData { get; set; } = null!;
+        public DbSet<Order> Orders { get; set; } = null!;
+
+
         public new Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
             return base.SaveChangesAsync(cancellationToken);

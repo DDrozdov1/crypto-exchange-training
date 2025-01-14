@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Created by https://www.toptal.com/developers/gitignore/api/react,aspnetcore,redis,firebase
 # Edit at https://www.toptal.com/developers/gitignore?templates=react,aspnetcore,redis,firebase
 
@@ -303,3 +304,22 @@ sketch
 *.rdb
 
 # End of https://www.toptal.com/developers/gitignore/api/react,aspnetcore,redis,firebase
+=======
+# Для Node.js (React.js)
+node_modules/
+build/
+
+# Для .NET (ASP.NET Core)
+bin/
+obj/
+*.user
+*.suo
+*.vscode/
+
+# Логи
+*.log
+
+# Настройки операционной системы
+.DS_Store
+Thumbs.db
+>>>>>>> 763b3d6fd87232facc72f168ea8f8b951f095d35

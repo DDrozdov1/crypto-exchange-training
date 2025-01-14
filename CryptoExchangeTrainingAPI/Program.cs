@@ -76,10 +76,17 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+else
+{
+    app.UseHttpsRedirection(); // перенаправление HTTP на HTTPS
+}
 
 // Использование аутентификации и авторизации
 app.UseAuthentication();
 app.UseAuthorization();
+
+// Добавление WebSocket middleware
+app.UseWebSockets();
 
 // Маршруты для контроллеров
 app.MapControllers();

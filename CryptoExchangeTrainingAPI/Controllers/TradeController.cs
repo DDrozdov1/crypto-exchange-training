@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Authorization;
 using CryptoExchangeTrainingAPI.Models;
 using Microsoft.EntityFrameworkCore;
 using CryptoExchangeTrainingAPI.Services;
+using System.Globalization;
 
 namespace CryptoExchangeTrainingAPI.Controllers
 {
@@ -86,31 +87,43 @@ namespace CryptoExchangeTrainingAPI.Controllers
                 return Unauthorized("Пользователь не найден.");
             }
 
+            var fee = request.Amount * 0.001m;
+
             // Проверка баланса пользователя
-            if (user.Balance < request.Amount)
+            if (user.Balance < request.Amount + fee)
             {
-                return BadRequest("Недостаточно средств для открытия сделки.");
+                return BadRequest("Недостаточно средств для открытия сделки с учетом комиссии.");
             }
 
             // Уменьшение баланса пользователя
-            user.Balance -= request.Amount;
+            user.Balance -= request.Amount + fee;
+            var orderBook = await _marketService.GetOrderBookAsync(request.Pair);
+            decimal price;
 
+            if (request.Type.ToLower() == "buy")
+            {
+                price = decimal.Parse(orderBook.Asks.First()[0], CultureInfo.InvariantCulture);
+            }
+            else
+            {
+                price = decimal.Parse(orderBook.Bids.First()[0], CultureInfo.InvariantCulture);
+            }
             // Создание сделки
             var trade = new Trade
             {
-                UserId = userId, // Устанавливаем ID текущего пользователя
+                UserId = userId,
                 Pair = request.Pair.ToUpper(),
                 Type = request.Type.ToLower(),
                 Leverage = request.Leverage,
                 Amount = request.Amount,
-                EntryPrice = await _marketService.GetPriceAsync(request.Pair), // Получение текущей цены из MarketService
+                EntryPrice = await _marketService.GetPriceAsync(request.Pair),
                 StopLoss = request.StopLoss,
                 TakeProfit = request.TakeProfit,
                 OpenedAt = DateTime.UtcNow,
-                Status = "open"
+                Status = "open",
+                Fee = fee,
             };
 
-            // Сохранение сделки в базе данных
             await _context.Trades.AddAsync(trade);
             await _context.SaveChangesAsync();
             await _notificationService.CreateNotificationAsync(userId, $"Сделка на {request.Pair} успешно открыта.");
@@ -156,12 +169,53 @@ namespace CryptoExchangeTrainingAPI.Controllers
                 return BadRequest("Сделка уже закрыта.");
             }
 
+            // Получение текущей цены
+            var exitPrice = await _marketService.GetPriceAsync(trade.Pair);
+            trade.ExitPrice = exitPrice;
+
+
+            // Расчет прибыли/убытка
+            var profitLoss = (exitPrice - trade.EntryPrice) * trade.Amount * trade.Leverage;
+            trade.ProfitLoss = profitLoss;
+
+            // Обновление баланса пользователя
+            var user = await _context.Users.FindAsync(userId);
+            if (user != null)
+            {
+                user.Balance += profitLoss;
+
+                // Логика работы с активами
+                if (trade.Type.ToLower() == "buy")
+                {
+                    var userAsset = await _context.UserAssets.FirstOrDefaultAsync(ua => ua.UserId == userId && ua.Asset == trade.Pair);
+                    if (userAsset == null)
+                    {
+                        await _context.UserAssets.AddAsync(new UserAsset { UserId = userId, Asset = trade.Pair, Balance = trade.Amount });
+                    }
+                    else
+                    {
+                        userAsset.Balance += trade.Amount;
+                    }
+                    await _context.SaveChangesAsync();
+                }
+                else if (trade.Type.ToLower() == "sell")
+                {
+                    var userAsset = await _context.UserAssets.FirstOrDefaultAsync(ua => ua.UserId == userId && ua.Asset == trade.Pair);
+                    if (userAsset != null)
+                    {
+                        userAsset.Balance -= trade.Amount;
+                    }
+
+                    await _context.SaveChangesAsync();
+                }
+            }
+
             // Закрытие сделки
             trade.Status = "closed";
             trade.ClosedAt = DateTime.UtcNow;
-
             await _context.SaveChangesAsync();
-            await _notificationService.CreateNotificationAsync(userId, $"Сделка на {trade.Pair} успешно закрыта.");
+            await _notificationService.CreateNotificationAsync(userId, $"Сделка на {trade.Pair} успешно закрыта с прибылью {profitLoss}.");
+
 
             return Ok(trade);
         }

@@ -176,5 +176,29 @@
         <member name="M:CryptoExchangeTrainingAPI.Migrations.IdentitySetup.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
+        <member name="T:CryptoExchangeTrainingAPI.Migrations.AddHistoricalData">
+            <inheritdoc />
+        </member>
+        <member name="M:CryptoExchangeTrainingAPI.Migrations.AddHistoricalData.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CryptoExchangeTrainingAPI.Migrations.AddHistoricalData.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CryptoExchangeTrainingAPI.Migrations.AddHistoricalData.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:CryptoExchangeTrainingAPI.Migrations.AddOrder">
+            <inheritdoc />
+        </member>
+        <member name="M:CryptoExchangeTrainingAPI.Migrations.AddOrder.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CryptoExchangeTrainingAPI.Migrations.AddOrder.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CryptoExchangeTrainingAPI.Migrations.AddOrder.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
     </members>
 </doc>

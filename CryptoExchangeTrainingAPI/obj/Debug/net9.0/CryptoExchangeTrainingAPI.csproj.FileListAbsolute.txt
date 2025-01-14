@@ -198,3 +198,5 @@ C:\CryptoExchangeTraining\CryptoExchangeTrainingAPI\bin\Debug\net9.0\Swashbuckle
 C:\CryptoExchangeTraining\CryptoExchangeTrainingAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\CryptoExchangeTraining\CryptoExchangeTrainingAPI\bin\Debug\net9.0\CryptoExchangeTrainingAPI.xml
 C:\CryptoExchangeTraining\CryptoExchangeTrainingAPI\obj\Debug\net9.0\CryptoExchangeTrainingAPI.xml
+C:\CryptoExchangeTraining\CryptoExchangeTrainingAPI\obj\Debug\net9.0\CryptoExchangeTrainingAPI.sourcelink.json
+C:\CryptoExchangeTraining\CryptoExchangeTrainingAPI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
