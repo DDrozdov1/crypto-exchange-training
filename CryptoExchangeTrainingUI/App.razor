@@ -1,0 +1,30 @@
+﻿
+<CascadingAuthenticationState>
+    <Router AppAssembly="@typeof(App).Assembly">
+        <Found Context="routeData">
+            <AuthorizeRouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)">
+                <Authorizing>
+                    <text>Authorizing...</text>
+                </Authorizing>
+                <NotAuthorized>
+                    <div class="alert alert-warning">
+                        @if (context.User.Identity?.IsAuthenticated != true)
+                        {
+                            <p>You are not authorized to access this page. Please <a href="login">login</a> first.</p>
+                        }
+                        else
+                        {
+                            <p>You are not authorized to access this resource.</p>
+                        }
+                    </div>
+                </NotAuthorized>
+            </AuthorizeRouteView>
+        </Found>
+        <NotFound>
+            <PageTitle>Not found</PageTitle>
+            <LayoutView Layout="@typeof(MainLayout)">
+                <p role="alert">Sorry, there's nothing at this address.</p>
+            </LayoutView>
+        </NotFound>
+    </Router>
+</CascadingAuthenticationState>

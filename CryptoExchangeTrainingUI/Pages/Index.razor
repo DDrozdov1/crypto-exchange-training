@@ -1,0 +1,15 @@
+﻿@page "/"
+@attribute [Authorize]
+
+<PageTitle>Home</PageTitle>
+
+<h1>Welcome to Crypto Exchange</h1>
+
+<AuthorizeView>
+    <Authorized>
+        <p>Hello, @context.User.Identity?.Name!</p>
+    </Authorized>
+    <NotAuthorized>
+        <p>Please log in to access the platform.</p>
+    </NotAuthorized>
+</AuthorizeView>

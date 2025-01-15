@@ -68,6 +68,19 @@ builder.Services.AddControllers()
         options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
         options.JsonSerializerOptions.DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull;
     });
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll",
+        builder =>
+        {
+            builder
+                .AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader();
+        });
+});
+
 var app = builder.Build();
 
 // Использование Swagger для тестирования API
@@ -90,6 +103,8 @@ app.UseWebSockets();
 
 // Маршруты для контроллеров
 app.MapControllers();
+
+app.UseCors("AllowAll");
 
 // Запуск приложения
 app.Run();

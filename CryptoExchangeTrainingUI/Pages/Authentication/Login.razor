@@ -1,0 +1,92 @@
+﻿@page "/login"
+@inject IAuthService AuthService
+@inject NavigationManager NavigationManager
+@inject ILogger<Login> Logger
+
+<div class="auth-container">
+    <div class="auth-box">
+        <h3 class="text-center mb-4">Login</h3>
+
+        @if (!string.IsNullOrEmpty(errorMessage))
+        {
+            <div class="alert @errorAlertClass">
+                @errorMessage
+            </div>
+        }
+
+        <EditForm Model="@loginRequest" OnValidSubmit="HandleLogin">
+            <DataAnnotationsValidator />
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <InputText id="email" @bind-Value="loginRequest.Email" class="form-control" />
+                <ValidationMessage For="@(() => loginRequest.Email)" />
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <InputText type="password" id="password" @bind-Value="loginRequest.Password" class="form-control" />
+                <ValidationMessage For="@(() => loginRequest.Password)" />
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100" disabled="@isLoading">
+                @if (isLoading)
+                {
+                    <span class="spinner-border spinner-border-sm mr-2"></span>
+                }
+                Login
+            </button>
+        </EditForm>
+
+        <div class="mt-3 text-center">
+            <a href="register">Don't have an account? Register here</a>
+        </div>
+    </div>
+</div>
+
+@code {
+    private LoginRequest loginRequest = new();
+    private string errorMessage = string.Empty;
+    private string errorAlertClass = "alert-danger";
+    private bool isLoading;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (await AuthService.IsAuthenticated())
+        {
+            NavigationManager.NavigateTo("/");
+        }
+    }
+
+    private async Task HandleLogin()
+    {
+        try
+        {
+            isLoading = true;
+            errorMessage = string.Empty;
+
+            var response = await AuthService.Login(loginRequest);
+
+            if (response.Success)
+            {
+                NavigationManager.NavigateTo("/");
+            }
+            else
+            {
+                errorMessage = response.Message;
+                errorAlertClass = response.Message.Contains("not found") ? "alert-warning" : "alert-danger";
+            }
+        }
+        catch (Exception ex)
+        {
+            Logger.LogError(ex, "Login error");
+            errorMessage = "An unexpected error occurred. Please try again.";
+            errorAlertClass = "alert-danger";
+        }
+        finally
+        {
+            isLoading = false;
+            StateHasChanged();
+        }
+    }
+}
