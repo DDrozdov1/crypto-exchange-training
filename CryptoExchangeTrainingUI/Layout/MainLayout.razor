@@ -1,20 +1,24 @@
-﻿
-@inherits LayoutComponentBase
+﻿@inherits LayoutComponentBase
 
 <div class="page">
-    <div class="sidebar">
+    <div class="sidebar bg-dark text-white">
         <NavMenu />
     </div>
 
     <main>
-        <div class="top-row px-4">
+        <div class="top-row px-4 bg-light">
             <AuthorizeView>
                 <Authorized>
-                    <span>Welcome, @context.User.Identity?.Name!</span>
-                    <button class="btn btn-link" @onclick="HandleLogout">Logout</button>
+                    <span class="oi oi-person" aria-hidden="true"></span>
+                    @{
+                        var fullEmail = context.User.Identity?.Name ?? "";
+                        var displayName = fullEmail.Contains("@") ? fullEmail.Split('@')[0] : fullEmail;
+                    }
+                    <span class="mx-2">@displayName</span>
+                    <button class="btn btn-link text-danger" @onclick="HandleLogout">Logout</button>
                 </Authorized>
                 <NotAuthorized>
-                    <a href="login">Login</a>
+                    <a href="/login">Login</a>
                 </NotAuthorized>
             </AuthorizeView>
         </div>
@@ -24,6 +28,7 @@
         </article>
     </main>
 </div>
+
 @code {
     [Inject]
     private IAuthService AuthService { get; set; } = default!;

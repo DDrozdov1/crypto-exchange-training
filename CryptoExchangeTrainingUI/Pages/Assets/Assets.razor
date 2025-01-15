@@ -1,0 +1,116 @@
+﻿@using CryptoExchangeTrainingUI.Models.User
+@using CryptoExchangeTrainingUI.Models.Common
+
+@page "/assets"
+@inject HttpClient HttpClient
+
+<h3>Ваши активы</h3>
+
+@if (isLoading)
+{
+    <p>Загрузка...</p>
+}
+else if (Assets?.Any() == true)
+{
+    <div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Актив</th>
+                    <th>Баланс</th>
+                    <th>Пополнить</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var asset in Assets)
+                {
+                    <tr>
+                        <td>@asset.Asset</td>
+                        <td>@asset.Balance.ToString("F2")</td>
+                        <td>
+                            <InputNumber @bind-Value="asset.DepositAmount" class="form-control" min="0.01" step="0.01" placeholder="Введите сумму" />
+                            <button class="btn btn-primary btn-sm mt-1" @onclick="() => DepositAsset(asset)">Пополнить</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <p>У вас пока нет активов.</p>
+}
+
+@if (!string.IsNullOrEmpty(DepositMessage))
+{
+    <p class="mt-2 text-success">@DepositMessage</p>
+}
+
+@code {
+    private List<UserAssetDto> Assets = new();
+    private string DepositMessage = string.Empty;
+    private bool isLoading = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        isLoading = true;
+
+        // Загрузка активов пользователя
+        await LoadAssets();
+
+        isLoading = false;
+    }
+
+    private async Task LoadAssets()
+    {
+        try
+        {
+            // Запрос к API для получения активов пользователя
+            var response = await HttpClient.GetFromJsonAsync<ApiResponse<List<UserAssetDto>>>("api/asset");
+            if (response?.Success == true && response.Data != null)
+            {
+                Assets = response.Data;
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Ошибка при загрузке активов: {ex.Message}");
+        }
+    }
+
+    private async Task DepositAsset(UserAssetDto asset)
+    {
+        if (asset.DepositAmount <= 0)
+        {
+            DepositMessage = "Сумма пополнения должна быть больше 0.";
+            return;
+        }
+
+        try
+        {
+            var request = new DepositRequestDto
+                {
+                    Amount = asset.DepositAmount,
+                    Asset = asset.Asset // Название токена, например "BTC"
+                };
+
+            var response = await HttpClient.PostAsJsonAsync("api/asset/deposit", request);
+            var result = await response.Content.ReadFromJsonAsync<ApiResponse<object>>();
+
+            if (result?.Success == true)
+            {
+                DepositMessage = $"Баланс актива {asset.Asset} успешно пополнен.";
+                await LoadAssets(); // Обновляем список активов
+            }
+            else
+            {
+                DepositMessage = result?.Message ?? $"Ошибка при пополнении баланса актива {asset.Asset}.";
+            }
+        }
+        catch (Exception ex)
+        {
+            DepositMessage = $"Ошибка: {ex.Message}";
+        }
+    }
+}

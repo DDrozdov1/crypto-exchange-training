@@ -1,0 +1,76 @@
+﻿@using CryptoExchangeTrainingUI.Models.User
+@using CryptoExchangeTrainingUI.Models.Common
+@page "/transactions"
+@inject HttpClient HttpClient
+
+<h3>История сделок</h3>
+
+@if (isLoading)
+{
+    <p>Загрузка...</p>
+}
+else if (Trades?.Any() == true)
+{
+    <div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Дата</th>
+                    <th>Торговая пара</th>
+                    <th>Тип</th>
+                    <th>Объём</th>
+                    <th>Цена входа</th>
+                    <th>Статус</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var trade in Trades)
+                {
+                    <tr>
+                        <td>@trade.OpenedAt.ToString("dd.MM.yyyy HH:mm")</td>
+                        <td>@trade.Pair</td>
+                        <td>@trade.Type</td>
+                        <td>@trade.Amount</td>
+                        <td>@trade.EntryPrice.ToString("F2")</td>
+                        <td>@trade.Status</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <p>У вас пока нет сделок.</p>
+}
+
+@code {
+    private List<TradeDto> Trades = new();
+    private bool isLoading = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        isLoading = true;
+
+        // Загрузка истории сделок
+        await LoadTrades();
+
+        isLoading = false;
+    }
+
+    private async Task LoadTrades()
+    {
+        try
+        {
+            var response = await HttpClient.GetFromJsonAsync<ApiResponse<List<TradeDto>>>("api/user/transactions");
+            if (response?.Success == true && response.Data != null)
+            {
+                Trades = response.Data;
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Ошибка при загрузке истории сделок: {ex.Message}");
+        }
+    }
+}

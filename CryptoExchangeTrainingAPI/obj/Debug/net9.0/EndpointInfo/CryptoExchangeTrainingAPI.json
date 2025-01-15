@@ -21,6 +21,48 @@
         }
       }
     },
+    "/api/Asset/deposit": {
+      "post": {
+        "tags": [
+          "Asset"
+        ],
+        "summary": "Пополнить баланс актива пользователя.",
+        "requestBody": {
+          "description": "Запрос на пополнение баланса актива.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DepositRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DepositRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DepositRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Баланс актива успешно пополнен."
+          },
+          "400": {
+            "description": "Некорректные данные для пополнения."
+          },
+          "401": {
+            "description": "Пользователь не авторизован."
+          },
+          "404": {
+            "description": "Актив не найден."
+          }
+        }
+      }
+    },
     "/api/Auth/register": {
       "post": {
         "tags": [
@@ -223,6 +265,18 @@
         }
       }
     },
+    "/api/Token": {
+      "get": {
+        "tags": [
+          "Token"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Trade/history": {
       "get": {
         "tags": [
@@ -346,6 +400,22 @@
         }
       }
     },
+    "/api/User/transactions": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "summary": "Получить историю сделок пользователя.",
+        "responses": {
+          "200": {
+            "description": "История сделок успешно получена."
+          },
+          "401": {
+            "description": "Пользователь не авторизован."
+          }
+        }
+      }
+    },
     "/ws/price": {
       "get": {
         "tags": [
@@ -368,6 +438,10 @@
             "minimum": 0,01,
             "type": "number",
             "format": "double"
+          },
+          "asset": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

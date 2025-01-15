@@ -23,6 +23,17 @@
             <response code="200">Список активов успешно получен.</response>
             <response code="401">Пользователь не авторизован.</response>
         </member>
+        <member name="M:CryptoExchangeTrainingAPI.Controllers.AssetController.DepositAsset(CryptoExchangeTrainingAPI.Models.DepositRequestDto)">
+            <summary>
+            Пополнить баланс актива пользователя.
+            </summary>
+            <param name="request">Запрос на пополнение баланса актива.</param>
+            <returns>Обновленный баланс актива пользователя.</returns>
+            <response code="200">Баланс актива успешно пополнен.</response>
+            <response code="400">Некорректные данные для пополнения.</response>
+            <response code="401">Пользователь не авторизован.</response>
+            <response code="404">Актив не найден.</response>
+        </member>
         <member name="T:CryptoExchangeTrainingAPI.Controllers.AuthController">
             <summary>
             Контроллер для управления аутентификацией и регистрацией пользователей.
@@ -164,6 +175,14 @@
             <response code="200">Баланс успешно пополнен.</response>
             <response code="400">Некорректные данные для пополнения.</response>
         </member>
+        <member name="M:CryptoExchangeTrainingAPI.Controllers.UserController.GetTransactionHistory">
+            <summary>
+            Получить историю сделок пользователя.
+            </summary>
+            <returns>Список сделок текущего пользователя.</returns>
+            <response code="200">История сделок успешно получена.</response>
+            <response code="401">Пользователь не авторизован.</response>
+        </member>
         <member name="T:CryptoExchangeTrainingAPI.Migrations.IdentitySetup">
             <inheritdoc />
         </member>
@@ -198,6 +217,30 @@
             <inheritdoc />
         </member>
         <member name="M:CryptoExchangeTrainingAPI.Migrations.AddOrder.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:CryptoExchangeTrainingAPI.Migrations.AddTableToken">
+            <inheritdoc />
+        </member>
+        <member name="M:CryptoExchangeTrainingAPI.Migrations.AddTableToken.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CryptoExchangeTrainingAPI.Migrations.AddTableToken.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CryptoExchangeTrainingAPI.Migrations.AddTableToken.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:CryptoExchangeTrainingAPI.Migrations.RemovePriceFromToken">
+            <inheritdoc />
+        </member>
+        <member name="M:CryptoExchangeTrainingAPI.Migrations.RemovePriceFromToken.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CryptoExchangeTrainingAPI.Migrations.RemovePriceFromToken.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CryptoExchangeTrainingAPI.Migrations.RemovePriceFromToken.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
     </members>

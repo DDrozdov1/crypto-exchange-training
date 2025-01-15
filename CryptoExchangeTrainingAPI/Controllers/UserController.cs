@@ -2,6 +2,7 @@
 using CryptoExchangeTrainingAPI.Data;
 using Microsoft.AspNetCore.Authorization;
 using CryptoExchangeTrainingAPI.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace CryptoExchangeTrainingAPI.Controllers
 {
@@ -79,5 +80,52 @@ namespace CryptoExchangeTrainingAPI.Controllers
 
             return Ok(new { Balance = user.Balance });
         }
+        /// <summary>
+        /// Получить историю сделок пользователя.
+        /// </summary>
+        /// <returns>Список сделок текущего пользователя.</returns>
+        /// <response code="200">История сделок успешно получена.</response>
+        /// <response code="401">Пользователь не авторизован.</response>
+        [HttpGet("transactions")]
+        [Authorize]
+        public async Task<IActionResult> GetTransactionHistory()
+        {
+            var userId = User.FindFirst("id")?.Value;
+
+            // Проверяем, что пользователь авторизован
+            if (userId == null)
+            {
+                return Unauthorized(new { Success = false, Message = "Пользователь не авторизован." });
+            }
+
+            // Получаем сделки пользователя из базы данных
+            var trades = await _context.Trades
+                .Where(t => t.UserId == userId)
+                .OrderByDescending(t => t.OpenedAt)
+                .ToListAsync();
+
+            // Преобразуем сделку в DTO, если нужно
+            var tradeDtos = trades.Select(t => new TradeDto
+            {
+                Id = t.Id,
+                Pair = t.Pair,
+                Type = t.Type,
+                Leverage = t.Leverage,
+                Amount = t.Amount,
+                EntryPrice = t.EntryPrice,
+                StopLoss = t.StopLoss,
+                TakeProfit = t.TakeProfit,
+                Status = t.Status,
+                OpenedAt = t.OpenedAt,
+                ClosedAt = t.ClosedAt
+            }).ToList();
+
+            return Ok(new
+            {
+                Success = true,
+                Data = tradeDtos
+            });
+        }
+
     }
 }

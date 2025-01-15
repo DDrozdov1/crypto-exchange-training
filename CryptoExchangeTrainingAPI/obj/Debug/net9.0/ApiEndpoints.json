@@ -10,6 +10,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "CryptoExchangeTrainingAPI.Controllers.AssetController",
+    "Method": "DepositAsset",
+    "RelativePath": "api/Asset/deposit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CryptoExchangeTrainingAPI.Models.DepositRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CryptoExchangeTrainingAPI.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/login",
@@ -126,6 +142,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "CryptoExchangeTrainingAPI.Controllers.TokenController",
+    "Method": "GetTokens",
+    "RelativePath": "api/Token",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CryptoExchangeTrainingAPI.Controllers.TradeController",
     "Method": "CloseTrade",
     "RelativePath": "api/Trade/close/{id}",
@@ -187,6 +213,16 @@
     "ContainingType": "CryptoExchangeTrainingAPI.Controllers.UserController",
     "Method": "GetProfile",
     "RelativePath": "api/User/profile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CryptoExchangeTrainingAPI.Controllers.UserController",
+    "Method": "GetTransactionHistory",
+    "RelativePath": "api/User/transactions",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

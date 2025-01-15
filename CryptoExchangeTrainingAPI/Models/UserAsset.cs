@@ -13,5 +13,7 @@ namespace CryptoExchangeTrainingAPI.Models
 
         // Связь с пользователем
         public User? User { get; set; }
+        public Token? Token { get; set; }
+
     }
 }

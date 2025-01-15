@@ -137,6 +137,27 @@ namespace CryptoExchangeTrainingAPI.Migrations
                     b.ToTable("Orders");
                 });
 
+            modelBuilder.Entity("CryptoExchangeTrainingAPI.Models.Token", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Symbol")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Tokens");
+                });
+
             modelBuilder.Entity("CryptoExchangeTrainingAPI.Models.Trade", b =>
                 {
                     b.Property<int>("Id")
@@ -286,6 +307,9 @@ namespace CryptoExchangeTrainingAPI.Migrations
                     b.Property<decimal>("Balance")
                         .HasColumnType("numeric");
 
+                    b.Property<int?>("TokenId")
+                        .HasColumnType("integer");
+
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("timestamp with time zone");
 
@@ -294,6 +318,8 @@ namespace CryptoExchangeTrainingAPI.Migrations
                         .HasColumnType("text");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("TokenId");
 
                     b.HasIndex("UserId");
 
@@ -467,11 +493,17 @@ namespace CryptoExchangeTrainingAPI.Migrations
 
             modelBuilder.Entity("CryptoExchangeTrainingAPI.Models.UserAsset", b =>
                 {
+                    b.HasOne("CryptoExchangeTrainingAPI.Models.Token", "Token")
+                        .WithMany("UserAssets")
+                        .HasForeignKey("TokenId");
+
                     b.HasOne("CryptoExchangeTrainingAPI.Models.User", "User")
                         .WithMany("UserAssets")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Token");
 
                     b.Navigation("User");
                 });
@@ -525,6 +557,11 @@ namespace CryptoExchangeTrainingAPI.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("CryptoExchangeTrainingAPI.Models.Token", b =>
+                {
+                    b.Navigation("UserAssets");
                 });
 
             modelBuilder.Entity("CryptoExchangeTrainingAPI.Models.User", b =>

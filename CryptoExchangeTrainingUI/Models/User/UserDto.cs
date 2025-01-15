@@ -2,11 +2,12 @@
 {
     public class UserDto
     {
-        public string Id { get; init; } = string.Empty;
-        public string Email { get; init; } = string.Empty;
-        public DateTime CreatedAt { get; init; }
-        public List<string> Roles { get; init; } = new();
-        public string Token { get; set; } = string.Empty;
-
+        public string Id { get; set; } = string.Empty; // Уникальный идентификатор пользователя
+        public string Email { get; set; } = string.Empty; // Email пользователя
+        public DateTime CreatedAt { get; set; } // Время регистрации пользователя
+        public decimal Balance { get; set; } // Баланс пользователя
+        public DateTime? LastLoginAt { get; set; } // Время последнего входа
+        public List<string> Roles { get; set; } = new(); // Роли пользователя
+        public string Token { get; set; } = string.Empty; // JWT-токен
     }
 }

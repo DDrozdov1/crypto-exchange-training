@@ -18,7 +18,7 @@ namespace CryptoExchangeTrainingAPI.Data
         public DbSet<Notification> Notifications { get; set; } = null!;
         public DbSet<HistoricalData> HistoricalData { get; set; } = null!;
         public DbSet<Order> Orders { get; set; } = null!;
-
+        public DbSet<Token> Tokens { get; set; } = null!;
 
         public new Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {

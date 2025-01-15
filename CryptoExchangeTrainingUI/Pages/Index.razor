@@ -3,13 +3,12 @@
 
 <PageTitle>Home</PageTitle>
 
-<h1>Welcome to Crypto Exchange</h1>
-
 <AuthorizeView>
     <Authorized>
-        <p>Hello, @context.User.Identity?.Name!</p>
+        <h3>Добро пожаловать на платформу Crypto Exchange!</h3>
+        <p>Вы можете управлять своими активами на странице <a href="/assets">Assets</a>.</p>
     </Authorized>
     <NotAuthorized>
-        <p>Please log in to access the platform.</p>
+        <p>Пожалуйста, <a href="/login">войдите</a>, чтобы получить доступ к платформе.</p>
     </NotAuthorized>
 </AuthorizeView>
