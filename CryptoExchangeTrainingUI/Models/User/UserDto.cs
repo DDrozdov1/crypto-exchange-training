@@ -6,5 +6,7 @@
         public string Email { get; init; } = string.Empty;
         public DateTime CreatedAt { get; init; }
         public List<string> Roles { get; init; } = new();
+        public string Token { get; set; } = string.Empty;
+
     }
 }

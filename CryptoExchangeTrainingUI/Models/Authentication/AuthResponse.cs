@@ -17,6 +17,9 @@ namespace CryptoExchangeTrainingUI.Models.Authentication
         [JsonPropertyName("message")]
         public string Message { get; init; } = string.Empty;
 
+        [JsonPropertyName("email")]
+        public string Email { get; init; } = string.Empty;
+
         [JsonPropertyName("errors")]
         public List<string> Errors { get; init; } = new();
     }

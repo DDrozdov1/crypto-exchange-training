@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gnoCF1NDP0W1IpnNDIb7IWUJhke2XAef/hlI+e2sdyo=",
+  "Hash": "nkiWW9m7DWpP+eus+F7m5mBbGzBFnt1l63dLnewMAsY=",
   "Source": "CryptoExchangeTrainingUI",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "20e17iw9bl",
-      "Integrity": "IizFOUkQuQgMxe/gQkys9v+/wOSfS4B9YhtRIIw0mW8=",
+      "Fingerprint": "8oxzbi8657",
+      "Integrity": "OAiimKr8NIte4ODG0AJ86+JFnO+KadbDbui3NOOXoBY=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\blazor.boot.json"
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "xm96f6cmpt",
-      "Integrity": "Sf0fU+kNRfFmMl56BQq0V6g2eIydxI/8NBnZggr03GM=",
+      "Fingerprint": "5cnwe8xzwz",
+      "Integrity": "JfziAeSXtmMUtJYlH38UEMS4nb8MVaTjECD8Q3hgXjA=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\CryptoExchangeTrainingUI.pdb"
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "z1rf4bcf4i",
-      "Integrity": "t0aNAa6CNx1ZFZyY2GZOfZPIeXeZ7xazVUb/Udd+E7U=",
+      "Fingerprint": "9illi1txo6",
+      "Integrity": "35mttq4Lh8qDRsqlQl6Yd7Dxk2G2unEC8HecDQkleVs=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\obj\\Debug\\net9.0\\webcil\\CryptoExchangeTrainingUI.wasm"
@@ -7976,12 +7976,12 @@
       "OriginalItemSpec": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Private.Uri.wasm"
     },
     {
-      "Identity": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\obj\\Debug\\net9.0\\compressed\\mxuppp8ofg-xm96f6cmpt.gz",
+      "Identity": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\obj\\Debug\\net9.0\\compressed\\mxuppp8ofg-5cnwe8xzwz.gz",
       "SourceId": "CryptoExchangeTrainingUI",
       "SourceType": "Computed",
       "ContentRoot": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/CryptoExchangeTrainingUI#[.{fingerprint=xm96f6cmpt}]!.pdb.gz",
+      "RelativePath": "_framework/CryptoExchangeTrainingUI#[.{fingerprint=5cnwe8xzwz}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -7990,8 +7990,8 @@
       "RelatedAsset": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\CryptoExchangeTrainingUI.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "685pzz1ook",
-      "Integrity": "Spo7OEhqs0KHaig9cFtmP7aTwrDvsCjW1e+qO/ga/vc=",
+      "Fingerprint": "zzivvk2wvj",
+      "Integrity": "7+AmKV8wKdppuMPtN6xOJD1sUB0N+OiVxF+n0BW40io=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\CryptoExchangeTrainingUI.pdb"
@@ -9047,12 +9047,12 @@
       "OriginalItemSpec": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Web.HttpUtility.wasm"
     },
     {
-      "Identity": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\obj\\Debug\\net9.0\\compressed\\tnbrz4a7az-z1rf4bcf4i.gz",
+      "Identity": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\obj\\Debug\\net9.0\\compressed\\tnbrz4a7az-9illi1txo6.gz",
       "SourceId": "CryptoExchangeTrainingUI",
       "SourceType": "Computed",
       "ContentRoot": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/CryptoExchangeTrainingUI#[.{fingerprint=z1rf4bcf4i}]!.wasm.gz",
+      "RelativePath": "_framework/CryptoExchangeTrainingUI#[.{fingerprint=9illi1txo6}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -9061,8 +9061,8 @@
       "RelatedAsset": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\CryptoExchangeTrainingUI.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "u593ro47a7",
-      "Integrity": "Iqw7PO/5q2lRagI4Ln1wonJXq5XO9AqfhjV4w5lle1o=",
+      "Fingerprint": "f2l2zz9jy8",
+      "Integrity": "J5Zv2mhE20gYq1bxbK5FRn6LITWV6ttyEPzRD8EX5Ss=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\CryptoExchangeTrainingUI.wasm"
@@ -9614,7 +9614,7 @@
       "OriginalItemSpec": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.IO.MemoryMappedFiles.wasm"
     },
     {
-      "Identity": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\obj\\Debug\\net9.0\\compressed\\wzt1wchbtk-20e17iw9bl.gz",
+      "Identity": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\obj\\Debug\\net9.0\\compressed\\wzt1wchbtk-8oxzbi8657.gz",
       "SourceId": "CryptoExchangeTrainingUI",
       "SourceType": "Computed",
       "ContentRoot": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\obj\\Debug\\net9.0\\compressed\\",
@@ -9628,8 +9628,8 @@
       "RelatedAsset": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "q13c508a3a",
-      "Integrity": "br+apPUFvBUudBANF8EuChmVmNSpZymuPnEDzHemmBo=",
+      "Fingerprint": "rmw3yarrce",
+      "Integrity": "8wEg8GP2O18gxBh6QCl/zrVTcF3dWJOlNHS2p0so/fQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -11304,11 +11304,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"IizFOUkQuQgMxe/gQkys9v+/wOSfS4B9YhtRIIw0mW8=\""
+          "Value": "\"OAiimKr8NIte4ODG0AJ86+JFnO+KadbDbui3NOOXoBY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:01:47 GMT"
+          "Value": "Wed, 15 Jan 2025 02:39:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11318,18 +11318,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-IizFOUkQuQgMxe/gQkys9v+/wOSfS4B9YhtRIIw0mW8="
+          "Value": "sha256-OAiimKr8NIte4ODG0AJ86+JFnO+KadbDbui3NOOXoBY="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\obj\\Debug\\net9.0\\compressed\\wzt1wchbtk-20e17iw9bl.gz",
+      "AssetFile": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\obj\\Debug\\net9.0\\compressed\\wzt1wchbtk-8oxzbi8657.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000076429227"
+          "Quality": "0.000076423386"
         }
       ],
       "ResponseHeaders": [
@@ -11339,15 +11339,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13083"
+          "Value": "13084"
         },
         {
           "Name": "ETag",
-          "Value": "\"br+apPUFvBUudBANF8EuChmVmNSpZymuPnEDzHemmBo=\""
+          "Value": "\"8wEg8GP2O18gxBh6QCl/zrVTcF3dWJOlNHS2p0so/fQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:00:44 GMT"
+          "Value": "Wed, 15 Jan 2025 02:37:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11367,19 +11367,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"IizFOUkQuQgMxe/gQkys9v+/wOSfS4B9YhtRIIw0mW8=\""
+          "Value": "W/\"OAiimKr8NIte4ODG0AJ86+JFnO+KadbDbui3NOOXoBY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-IizFOUkQuQgMxe/gQkys9v+/wOSfS4B9YhtRIIw0mW8="
+          "Value": "sha256-OAiimKr8NIte4ODG0AJ86+JFnO+KadbDbui3NOOXoBY="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\obj\\Debug\\net9.0\\compressed\\wzt1wchbtk-20e17iw9bl.gz",
+      "AssetFile": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\obj\\Debug\\net9.0\\compressed\\wzt1wchbtk-8oxzbi8657.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11388,7 +11388,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13083"
+          "Value": "13084"
         },
         {
           "Name": "Content-Type",
@@ -11396,11 +11396,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"br+apPUFvBUudBANF8EuChmVmNSpZymuPnEDzHemmBo=\""
+          "Value": "\"8wEg8GP2O18gxBh6QCl/zrVTcF3dWJOlNHS2p0so/fQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:00:44 GMT"
+          "Value": "Wed, 15 Jan 2025 02:37:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11418,7 +11418,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-br+apPUFvBUudBANF8EuChmVmNSpZymuPnEDzHemmBo="
+          "Value": "sha256-8wEg8GP2O18gxBh6QCl/zrVTcF3dWJOlNHS2p0so/fQ="
         }
       ]
     },
@@ -11858,7 +11858,7 @@
       ]
     },
     {
-      "Route": "_framework/CryptoExchangeTrainingUI.pdb",
+      "Route": "_framework/CryptoExchangeTrainingUI.5cnwe8xzwz.pdb",
       "AssetFile": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\CryptoExchangeTrainingUI.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -11868,7 +11868,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "50304"
+          "Value": "50796"
         },
         {
           "Name": "Content-Type",
@@ -11876,285 +11876,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Sf0fU+kNRfFmMl56BQq0V6g2eIydxI/8NBnZggr03GM=\""
+          "Value": "\"JfziAeSXtmMUtJYlH38UEMS4nb8MVaTjECD8Q3hgXjA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:01:47 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Sf0fU+kNRfFmMl56BQq0V6g2eIydxI/8NBnZggr03GM="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/CryptoExchangeTrainingUI.pdb",
-      "AssetFile": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\obj\\Debug\\net9.0\\compressed\\mxuppp8ofg-xm96f6cmpt.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000026595745"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "37599"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Spo7OEhqs0KHaig9cFtmP7aTwrDvsCjW1e+qO/ga/vc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:01:47 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Sf0fU+kNRfFmMl56BQq0V6g2eIydxI/8NBnZggr03GM=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Sf0fU+kNRfFmMl56BQq0V6g2eIydxI/8NBnZggr03GM="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/CryptoExchangeTrainingUI.pdb.gz",
-      "AssetFile": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\obj\\Debug\\net9.0\\compressed\\mxuppp8ofg-xm96f6cmpt.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "37599"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Spo7OEhqs0KHaig9cFtmP7aTwrDvsCjW1e+qO/ga/vc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:01:47 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Spo7OEhqs0KHaig9cFtmP7aTwrDvsCjW1e+qO/ga/vc="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/CryptoExchangeTrainingUI.wasm",
-      "AssetFile": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\CryptoExchangeTrainingUI.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "62229"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"t0aNAa6CNx1ZFZyY2GZOfZPIeXeZ7xazVUb/Udd+E7U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:01:47 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-t0aNAa6CNx1ZFZyY2GZOfZPIeXeZ7xazVUb/Udd+E7U="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/CryptoExchangeTrainingUI.wasm",
-      "AssetFile": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\obj\\Debug\\net9.0\\compressed\\tnbrz4a7az-z1rf4bcf4i.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000040786361"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "24517"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Iqw7PO/5q2lRagI4Ln1wonJXq5XO9AqfhjV4w5lle1o=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:01:47 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"t0aNAa6CNx1ZFZyY2GZOfZPIeXeZ7xazVUb/Udd+E7U=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-t0aNAa6CNx1ZFZyY2GZOfZPIeXeZ7xazVUb/Udd+E7U="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/CryptoExchangeTrainingUI.wasm.gz",
-      "AssetFile": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\obj\\Debug\\net9.0\\compressed\\tnbrz4a7az-z1rf4bcf4i.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "24517"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Iqw7PO/5q2lRagI4Ln1wonJXq5XO9AqfhjV4w5lle1o=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:01:47 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Iqw7PO/5q2lRagI4Ln1wonJXq5XO9AqfhjV4w5lle1o="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/CryptoExchangeTrainingUI.xm96f6cmpt.pdb",
-      "AssetFile": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\CryptoExchangeTrainingUI.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "50304"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Sf0fU+kNRfFmMl56BQq0V6g2eIydxI/8NBnZggr03GM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:01:47 GMT"
+          "Value": "Wed, 15 Jan 2025 02:39:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12164,7 +11890,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xm96f6cmpt"
+          "Value": "5cnwe8xzwz"
         },
         {
           "Name": "label",
@@ -12172,18 +11898,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Sf0fU+kNRfFmMl56BQq0V6g2eIydxI/8NBnZggr03GM="
+          "Value": "sha256-JfziAeSXtmMUtJYlH38UEMS4nb8MVaTjECD8Q3hgXjA="
         }
       ]
     },
     {
-      "Route": "_framework/CryptoExchangeTrainingUI.xm96f6cmpt.pdb",
-      "AssetFile": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\obj\\Debug\\net9.0\\compressed\\mxuppp8ofg-xm96f6cmpt.gz",
+      "Route": "_framework/CryptoExchangeTrainingUI.5cnwe8xzwz.pdb",
+      "AssetFile": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\obj\\Debug\\net9.0\\compressed\\mxuppp8ofg-5cnwe8xzwz.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000026595745"
+          "Quality": "0.000026462027"
         }
       ],
       "ResponseHeaders": [
@@ -12193,15 +11919,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "37599"
+          "Value": "37789"
         },
         {
           "Name": "ETag",
-          "Value": "\"Spo7OEhqs0KHaig9cFtmP7aTwrDvsCjW1e+qO/ga/vc=\""
+          "Value": "\"7+AmKV8wKdppuMPtN6xOJD1sUB0N+OiVxF+n0BW40io=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:01:47 GMT"
+          "Value": "Wed, 15 Jan 2025 02:39:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12221,13 +11947,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Sf0fU+kNRfFmMl56BQq0V6g2eIydxI/8NBnZggr03GM=\""
+          "Value": "W/\"JfziAeSXtmMUtJYlH38UEMS4nb8MVaTjECD8Q3hgXjA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xm96f6cmpt"
+          "Value": "5cnwe8xzwz"
         },
         {
           "Name": "label",
@@ -12235,13 +11961,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Sf0fU+kNRfFmMl56BQq0V6g2eIydxI/8NBnZggr03GM="
+          "Value": "sha256-JfziAeSXtmMUtJYlH38UEMS4nb8MVaTjECD8Q3hgXjA="
         }
       ]
     },
     {
-      "Route": "_framework/CryptoExchangeTrainingUI.xm96f6cmpt.pdb.gz",
-      "AssetFile": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\obj\\Debug\\net9.0\\compressed\\mxuppp8ofg-xm96f6cmpt.gz",
+      "Route": "_framework/CryptoExchangeTrainingUI.5cnwe8xzwz.pdb.gz",
+      "AssetFile": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\obj\\Debug\\net9.0\\compressed\\mxuppp8ofg-5cnwe8xzwz.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12250,7 +11976,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "37599"
+          "Value": "37789"
         },
         {
           "Name": "Content-Type",
@@ -12258,11 +11984,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Spo7OEhqs0KHaig9cFtmP7aTwrDvsCjW1e+qO/ga/vc=\""
+          "Value": "\"7+AmKV8wKdppuMPtN6xOJD1sUB0N+OiVxF+n0BW40io=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:01:47 GMT"
+          "Value": "Wed, 15 Jan 2025 02:39:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12280,7 +12006,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xm96f6cmpt"
+          "Value": "5cnwe8xzwz"
         },
         {
           "Name": "label",
@@ -12288,12 +12014,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Spo7OEhqs0KHaig9cFtmP7aTwrDvsCjW1e+qO/ga/vc="
+          "Value": "sha256-7+AmKV8wKdppuMPtN6xOJD1sUB0N+OiVxF+n0BW40io="
         }
       ]
     },
     {
-      "Route": "_framework/CryptoExchangeTrainingUI.z1rf4bcf4i.wasm",
+      "Route": "_framework/CryptoExchangeTrainingUI.9illi1txo6.wasm",
       "AssetFile": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\CryptoExchangeTrainingUI.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -12303,7 +12029,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "62229"
+          "Value": "61205"
         },
         {
           "Name": "Content-Type",
@@ -12311,11 +12037,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"t0aNAa6CNx1ZFZyY2GZOfZPIeXeZ7xazVUb/Udd+E7U=\""
+          "Value": "\"35mttq4Lh8qDRsqlQl6Yd7Dxk2G2unEC8HecDQkleVs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:01:47 GMT"
+          "Value": "Wed, 15 Jan 2025 02:39:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12325,7 +12051,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "z1rf4bcf4i"
+          "Value": "9illi1txo6"
         },
         {
           "Name": "label",
@@ -12333,18 +12059,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-t0aNAa6CNx1ZFZyY2GZOfZPIeXeZ7xazVUb/Udd+E7U="
+          "Value": "sha256-35mttq4Lh8qDRsqlQl6Yd7Dxk2G2unEC8HecDQkleVs="
         }
       ]
     },
     {
-      "Route": "_framework/CryptoExchangeTrainingUI.z1rf4bcf4i.wasm",
-      "AssetFile": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\obj\\Debug\\net9.0\\compressed\\tnbrz4a7az-z1rf4bcf4i.gz",
+      "Route": "_framework/CryptoExchangeTrainingUI.9illi1txo6.wasm",
+      "AssetFile": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\obj\\Debug\\net9.0\\compressed\\tnbrz4a7az-9illi1txo6.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000040786361"
+          "Quality": "0.000041040795"
         }
       ],
       "ResponseHeaders": [
@@ -12354,15 +12080,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "24517"
+          "Value": "24365"
         },
         {
           "Name": "ETag",
-          "Value": "\"Iqw7PO/5q2lRagI4Ln1wonJXq5XO9AqfhjV4w5lle1o=\""
+          "Value": "\"J5Zv2mhE20gYq1bxbK5FRn6LITWV6ttyEPzRD8EX5Ss=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:01:47 GMT"
+          "Value": "Wed, 15 Jan 2025 02:39:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12382,13 +12108,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"t0aNAa6CNx1ZFZyY2GZOfZPIeXeZ7xazVUb/Udd+E7U=\""
+          "Value": "W/\"35mttq4Lh8qDRsqlQl6Yd7Dxk2G2unEC8HecDQkleVs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "z1rf4bcf4i"
+          "Value": "9illi1txo6"
         },
         {
           "Name": "label",
@@ -12396,13 +12122,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-t0aNAa6CNx1ZFZyY2GZOfZPIeXeZ7xazVUb/Udd+E7U="
+          "Value": "sha256-35mttq4Lh8qDRsqlQl6Yd7Dxk2G2unEC8HecDQkleVs="
         }
       ]
     },
     {
-      "Route": "_framework/CryptoExchangeTrainingUI.z1rf4bcf4i.wasm.gz",
-      "AssetFile": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\obj\\Debug\\net9.0\\compressed\\tnbrz4a7az-z1rf4bcf4i.gz",
+      "Route": "_framework/CryptoExchangeTrainingUI.9illi1txo6.wasm.gz",
+      "AssetFile": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\obj\\Debug\\net9.0\\compressed\\tnbrz4a7az-9illi1txo6.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12411,7 +12137,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "24517"
+          "Value": "24365"
         },
         {
           "Name": "Content-Type",
@@ -12419,11 +12145,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Iqw7PO/5q2lRagI4Ln1wonJXq5XO9AqfhjV4w5lle1o=\""
+          "Value": "\"J5Zv2mhE20gYq1bxbK5FRn6LITWV6ttyEPzRD8EX5Ss=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:01:47 GMT"
+          "Value": "Wed, 15 Jan 2025 02:39:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12441,7 +12167,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "z1rf4bcf4i"
+          "Value": "9illi1txo6"
         },
         {
           "Name": "label",
@@ -12449,7 +12175,281 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Iqw7PO/5q2lRagI4Ln1wonJXq5XO9AqfhjV4w5lle1o="
+          "Value": "sha256-J5Zv2mhE20gYq1bxbK5FRn6LITWV6ttyEPzRD8EX5Ss="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/CryptoExchangeTrainingUI.pdb",
+      "AssetFile": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\CryptoExchangeTrainingUI.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50796"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JfziAeSXtmMUtJYlH38UEMS4nb8MVaTjECD8Q3hgXjA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 02:39:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JfziAeSXtmMUtJYlH38UEMS4nb8MVaTjECD8Q3hgXjA="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/CryptoExchangeTrainingUI.pdb",
+      "AssetFile": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\obj\\Debug\\net9.0\\compressed\\mxuppp8ofg-5cnwe8xzwz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000026462027"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37789"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7+AmKV8wKdppuMPtN6xOJD1sUB0N+OiVxF+n0BW40io=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 02:39:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"JfziAeSXtmMUtJYlH38UEMS4nb8MVaTjECD8Q3hgXjA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JfziAeSXtmMUtJYlH38UEMS4nb8MVaTjECD8Q3hgXjA="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/CryptoExchangeTrainingUI.pdb.gz",
+      "AssetFile": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\obj\\Debug\\net9.0\\compressed\\mxuppp8ofg-5cnwe8xzwz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37789"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7+AmKV8wKdppuMPtN6xOJD1sUB0N+OiVxF+n0BW40io=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 02:39:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7+AmKV8wKdppuMPtN6xOJD1sUB0N+OiVxF+n0BW40io="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/CryptoExchangeTrainingUI.wasm",
+      "AssetFile": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\CryptoExchangeTrainingUI.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61205"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"35mttq4Lh8qDRsqlQl6Yd7Dxk2G2unEC8HecDQkleVs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 02:39:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-35mttq4Lh8qDRsqlQl6Yd7Dxk2G2unEC8HecDQkleVs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/CryptoExchangeTrainingUI.wasm",
+      "AssetFile": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\obj\\Debug\\net9.0\\compressed\\tnbrz4a7az-9illi1txo6.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000041040795"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24365"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J5Zv2mhE20gYq1bxbK5FRn6LITWV6ttyEPzRD8EX5Ss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 02:39:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"35mttq4Lh8qDRsqlQl6Yd7Dxk2G2unEC8HecDQkleVs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-35mttq4Lh8qDRsqlQl6Yd7Dxk2G2unEC8HecDQkleVs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/CryptoExchangeTrainingUI.wasm.gz",
+      "AssetFile": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\obj\\Debug\\net9.0\\compressed\\tnbrz4a7az-9illi1txo6.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24365"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J5Zv2mhE20gYq1bxbK5FRn6LITWV6ttyEPzRD8EX5Ss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 02:39:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-J5Zv2mhE20gYq1bxbK5FRn6LITWV6ttyEPzRD8EX5Ss="
         }
       ]
     },

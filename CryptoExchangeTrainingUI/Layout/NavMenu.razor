@@ -1,5 +1,4 @@
-﻿@* Layout/NavMenu.razor *@
-@inject IAuthService AuthService
+﻿@inject IAuthService AuthService
 @inject NavigationManager NavigationManager
 
 <div class="top-row ps-3 navbar navbar-dark">
@@ -17,7 +16,12 @@
             <Authorized>
                 <div class="nav-item px-3">
                     <span class="nav-link">
-                        <span class="oi oi-person" aria-hidden="true"></span> @userDisplayName
+                        <span class="oi oi-person" aria-hidden="true"></span>
+                        @{
+                            var fullEmail = context.User.Identity?.Name ?? "";
+                            var displayName = fullEmail.Contains("@") ? fullEmail.Split('@')[0] : fullEmail;
+                        }
+                        @displayName
                     </span>
                 </div>
                 <div class="nav-item px-3">
@@ -50,12 +54,6 @@
 @code {
     private bool collapseNavMenu = true;
     private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-    private string userDisplayName = string.Empty;
-
-    protected override async Task OnInitializedAsync()
-    {
-        userDisplayName = await AuthService.GetUserDisplayName();
-    }
 
     private void ToggleNavMenu()
     {
@@ -65,6 +63,6 @@
     private async Task HandleLogout()
     {
         await AuthService.Logout();
-        NavigationManager.NavigateTo("/login", true);
+        NavigationManager.NavigateTo("/login");
     }
 }

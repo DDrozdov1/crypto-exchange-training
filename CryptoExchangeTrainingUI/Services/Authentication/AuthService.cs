@@ -9,6 +9,7 @@ using System.Security.Claims;
 using CryptoExchangeTrainingUI.Services.Common;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using CryptoExchangeTrainingUI.Models.User;
 namespace CryptoExchangeTrainingUI.Services.Authentication
 {
     public class AuthService : IAuthService
@@ -73,103 +74,55 @@ namespace CryptoExchangeTrainingUI.Services.Authentication
         {
             try
             {
-                _logger.LogInformation("Attempting login for user: {Email}", loginRequest.Email);
-
                 var response = await _httpClient.PostAsJsonAsync("api/auth/login", loginRequest);
 
-                // Читаем содержимое ответа
-                var responseContent = await response.Content.ReadAsStringAsync();
-                _logger.LogInformation("Raw response: {Response}", responseContent);
-
-                // Проверяем, что ответ не пустой и является валидным JSON
-                if (!string.IsNullOrEmpty(responseContent))
+                if (response.IsSuccessStatusCode)
                 {
-                    try
+                    var userDto = await response.Content.ReadFromJsonAsync<UserDto>();
+                    if (userDto != null)
                     {
-                        if (response.IsSuccessStatusCode)
-                        {
-                            var result = JsonSerializer.Deserialize<AuthResponse>(responseContent, new JsonSerializerOptions
-                            {
-                                PropertyNameCaseInsensitive = true
-                            });
+                        await _localStorage.SetItemAsync("authToken", userDto.Token);
+                        _httpClient.DefaultRequestHeaders.Authorization =
+                            new AuthenticationHeaderValue("Bearer", userDto.Token);
+                        ((CustomAuthenticationStateProvider)_authStateProvider)
+                            .NotifyUserAuthentication(userDto.Token);
 
-                            if (result?.Success == true && !string.IsNullOrEmpty(result.Token))
-                            {
-                                await _localStorage.SetItemAsync(Constants.Storage.AuthToken, result.Token);
-                                _httpClient.DefaultRequestHeaders.Authorization =
-                                    new AuthenticationHeaderValue("Bearer", result.Token);
-                                ((CustomAuthenticationStateProvider)_authStateProvider).NotifyUserAuthentication(result.Token);
-                                return result;
-                            }
-                        }
-
-                        // Пытаемся прочитать сообщение об ошибке
-                        try
-                        {
-                            var errorResult = JsonSerializer.Deserialize<Dictionary<string, object>>(responseContent);
-                            var errorMessage = errorResult?.GetValueOrDefault("message")?.ToString();
-
-                            if (!string.IsNullOrEmpty(errorMessage))
-                            {
-                                if (errorMessage.Contains("not found", StringComparison.OrdinalIgnoreCase))
-                                {
-                                    return new AuthResponse
-                                    {
-                                        Success = false,
-                                        Message = "User not found",
-                                        Errors = new List<string> { "No account exists with this email address" }
-                                    };
-                                }
-                                if (errorMessage.Contains("password", StringComparison.OrdinalIgnoreCase))
-                                {
-                                    return new AuthResponse
-                                    {
-                                        Success = false,
-                                        Message = "Invalid password",
-                                        Errors = new List<string> { "The password you entered is incorrect" }
-                                    };
-                                }
-
-                                return new AuthResponse
-                                {
-                                    Success = false,
-                                    Message = errorMessage,
-                                    Errors = new List<string> { errorMessage }
-                                };
-                            }
-                        }
-                        catch (JsonException ex)
-                        {
-                            _logger.LogError(ex, "Error parsing error response");
-                        }
-                    }
-                    catch (JsonException ex)
-                    {
-                        _logger.LogError(ex, "Error deserializing response: {Response}", responseContent);
+                        return new AuthResponse { Success = true };
                     }
                 }
 
-                // Если не удалось обработать ответ, возвращаем общую ошибку
                 return new AuthResponse
                 {
                     Success = false,
-                    Message = "Login failed",
-                    Errors = new List<string>
-            {
-                $"Unable to process server response. Status: {response.StatusCode}",
-                "Please try again later"
-            }
+                    Message = "Invalid email or password"
                 };
             }
-            catch (Exception ex)
+            catch
             {
-                _logger.LogError(ex, "Error during login attempt");
-                return new AuthResponse
+                return new AuthResponse { Success = false };
+            }
+        }
+
+        public async Task<AuthResponse> Register(RegisterRequest registerRequest)
+        {
+            try
+            {
+                var response = await _httpClient.PostAsJsonAsync("api/auth/register", registerRequest);
+
+                if (response.IsSuccessStatusCode)
                 {
-                    Success = false,
-                    Message = "An unexpected error occurred",
-                    Errors = new List<string> { "Please check your connection and try again" }
-                };
+                    return new AuthResponse
+                    {
+                        Success = true,
+                        Message = "Registration successful"
+                    };
+                }
+
+                return new AuthResponse { Success = false };
+            }
+            catch
+            {
+                return new AuthResponse { Success = false };
             }
         }
 
@@ -188,43 +141,7 @@ namespace CryptoExchangeTrainingUI.Services.Authentication
                 throw;
             }
         }
-        public async Task<AuthResponse> Register(RegisterRequest registerRequest)
-        {
-            try
-            {
-                var response = await _httpClient.PostAsJsonAsync("api/auth/register", registerRequest);
-                var responseContent = await response.Content.ReadAsStringAsync();
-
-                if (response.IsSuccessStatusCode)
-                {
-                    var result = JsonSerializer.Deserialize<AuthResponse>(responseContent,
-                        new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
-
-                    if (result?.Success == true)
-                    {
-                        return result;
-                    }
-                }
-
-                var errorResponse = JsonSerializer.Deserialize<Dictionary<string, object>>(responseContent);
-                return new AuthResponse
-                {
-                    Success = false,
-                    Message = errorResponse?["message"]?.ToString() ?? "Registration failed",
-                    Errors = new List<string> { errorResponse?["message"]?.ToString() ?? "Unknown error" }
-                };
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Registration error");
-                return new AuthResponse
-                {
-                    Success = false,
-                    Message = "Registration failed",
-                    Errors = new List<string> { ex.Message }
-                };
-            }
-        }
+        
 
         public async Task<string> GetUserDisplayName()
         {

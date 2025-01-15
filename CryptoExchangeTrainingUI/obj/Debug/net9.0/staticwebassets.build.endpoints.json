@@ -736,282 +736,8 @@
       ]
     },
     {
-      "Route": "_framework/CryptoExchangeTrainingUI.pdb",
-      "AssetFile": "_framework/CryptoExchangeTrainingUI.xm96f6cmpt.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "50304"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Sf0fU+kNRfFmMl56BQq0V6g2eIydxI/8NBnZggr03GM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:01:47 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Sf0fU+kNRfFmMl56BQq0V6g2eIydxI/8NBnZggr03GM="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/CryptoExchangeTrainingUI.pdb",
-      "AssetFile": "_framework/CryptoExchangeTrainingUI.xm96f6cmpt.pdb.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000026595745"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "37599"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Spo7OEhqs0KHaig9cFtmP7aTwrDvsCjW1e+qO/ga/vc=\""
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Sf0fU+kNRfFmMl56BQq0V6g2eIydxI/8NBnZggr03GM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:01:47 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Sf0fU+kNRfFmMl56BQq0V6g2eIydxI/8NBnZggr03GM="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/CryptoExchangeTrainingUI.pdb.gz",
-      "AssetFile": "_framework/CryptoExchangeTrainingUI.xm96f6cmpt.pdb.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "37599"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Spo7OEhqs0KHaig9cFtmP7aTwrDvsCjW1e+qO/ga/vc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:01:47 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Spo7OEhqs0KHaig9cFtmP7aTwrDvsCjW1e+qO/ga/vc="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/CryptoExchangeTrainingUI.wasm",
-      "AssetFile": "_framework/CryptoExchangeTrainingUI.z1rf4bcf4i.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "62229"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"t0aNAa6CNx1ZFZyY2GZOfZPIeXeZ7xazVUb/Udd+E7U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:01:47 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-t0aNAa6CNx1ZFZyY2GZOfZPIeXeZ7xazVUb/Udd+E7U="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/CryptoExchangeTrainingUI.wasm",
-      "AssetFile": "_framework/CryptoExchangeTrainingUI.z1rf4bcf4i.wasm.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000040786361"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "24517"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Iqw7PO/5q2lRagI4Ln1wonJXq5XO9AqfhjV4w5lle1o=\""
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"t0aNAa6CNx1ZFZyY2GZOfZPIeXeZ7xazVUb/Udd+E7U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:01:47 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-t0aNAa6CNx1ZFZyY2GZOfZPIeXeZ7xazVUb/Udd+E7U="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/CryptoExchangeTrainingUI.wasm.gz",
-      "AssetFile": "_framework/CryptoExchangeTrainingUI.z1rf4bcf4i.wasm.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "24517"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Iqw7PO/5q2lRagI4Ln1wonJXq5XO9AqfhjV4w5lle1o=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:01:47 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Iqw7PO/5q2lRagI4Ln1wonJXq5XO9AqfhjV4w5lle1o="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/CryptoExchangeTrainingUI.xm96f6cmpt.pdb",
-      "AssetFile": "_framework/CryptoExchangeTrainingUI.xm96f6cmpt.pdb",
+      "Route": "_framework/CryptoExchangeTrainingUI.5cnwe8xzwz.pdb",
+      "AssetFile": "_framework/CryptoExchangeTrainingUI.5cnwe8xzwz.pdb",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1024,7 +750,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "50304"
+          "Value": "50796"
         },
         {
           "Name": "Content-Type",
@@ -1032,21 +758,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Sf0fU+kNRfFmMl56BQq0V6g2eIydxI/8NBnZggr03GM=\""
+          "Value": "\"JfziAeSXtmMUtJYlH38UEMS4nb8MVaTjECD8Q3hgXjA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:01:47 GMT"
+          "Value": "Wed, 15 Jan 2025 02:39:18 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xm96f6cmpt"
+          "Value": "5cnwe8xzwz"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Sf0fU+kNRfFmMl56BQq0V6g2eIydxI/8NBnZggr03GM="
+          "Value": "sha256-JfziAeSXtmMUtJYlH38UEMS4nb8MVaTjECD8Q3hgXjA="
         },
         {
           "Name": "label",
@@ -1055,13 +781,13 @@
       ]
     },
     {
-      "Route": "_framework/CryptoExchangeTrainingUI.xm96f6cmpt.pdb",
-      "AssetFile": "_framework/CryptoExchangeTrainingUI.xm96f6cmpt.pdb.gz",
+      "Route": "_framework/CryptoExchangeTrainingUI.5cnwe8xzwz.pdb",
+      "AssetFile": "_framework/CryptoExchangeTrainingUI.5cnwe8xzwz.pdb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000026595745"
+          "Quality": "0.000026462027"
         }
       ],
       "ResponseHeaders": [
@@ -1079,7 +805,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "37599"
+          "Value": "37789"
         },
         {
           "Name": "Content-Type",
@@ -1087,15 +813,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Spo7OEhqs0KHaig9cFtmP7aTwrDvsCjW1e+qO/ga/vc=\""
+          "Value": "\"7+AmKV8wKdppuMPtN6xOJD1sUB0N+OiVxF+n0BW40io=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Sf0fU+kNRfFmMl56BQq0V6g2eIydxI/8NBnZggr03GM=\""
+          "Value": "W/\"JfziAeSXtmMUtJYlH38UEMS4nb8MVaTjECD8Q3hgXjA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:01:47 GMT"
+          "Value": "Wed, 15 Jan 2025 02:39:19 GMT"
         },
         {
           "Name": "Vary",
@@ -1105,11 +831,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xm96f6cmpt"
+          "Value": "5cnwe8xzwz"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Sf0fU+kNRfFmMl56BQq0V6g2eIydxI/8NBnZggr03GM="
+          "Value": "sha256-JfziAeSXtmMUtJYlH38UEMS4nb8MVaTjECD8Q3hgXjA="
         },
         {
           "Name": "label",
@@ -1118,8 +844,8 @@
       ]
     },
     {
-      "Route": "_framework/CryptoExchangeTrainingUI.xm96f6cmpt.pdb.gz",
-      "AssetFile": "_framework/CryptoExchangeTrainingUI.xm96f6cmpt.pdb.gz",
+      "Route": "_framework/CryptoExchangeTrainingUI.5cnwe8xzwz.pdb.gz",
+      "AssetFile": "_framework/CryptoExchangeTrainingUI.5cnwe8xzwz.pdb.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1136,7 +862,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "37599"
+          "Value": "37789"
         },
         {
           "Name": "Content-Type",
@@ -1144,11 +870,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Spo7OEhqs0KHaig9cFtmP7aTwrDvsCjW1e+qO/ga/vc=\""
+          "Value": "\"7+AmKV8wKdppuMPtN6xOJD1sUB0N+OiVxF+n0BW40io=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:01:47 GMT"
+          "Value": "Wed, 15 Jan 2025 02:39:19 GMT"
         },
         {
           "Name": "Vary",
@@ -1158,11 +884,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xm96f6cmpt"
+          "Value": "5cnwe8xzwz"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Spo7OEhqs0KHaig9cFtmP7aTwrDvsCjW1e+qO/ga/vc="
+          "Value": "sha256-7+AmKV8wKdppuMPtN6xOJD1sUB0N+OiVxF+n0BW40io="
         },
         {
           "Name": "label",
@@ -1171,8 +897,8 @@
       ]
     },
     {
-      "Route": "_framework/CryptoExchangeTrainingUI.z1rf4bcf4i.wasm",
-      "AssetFile": "_framework/CryptoExchangeTrainingUI.z1rf4bcf4i.wasm",
+      "Route": "_framework/CryptoExchangeTrainingUI.9illi1txo6.wasm",
+      "AssetFile": "_framework/CryptoExchangeTrainingUI.9illi1txo6.wasm",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1185,7 +911,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "62229"
+          "Value": "61205"
         },
         {
           "Name": "Content-Type",
@@ -1193,21 +919,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"t0aNAa6CNx1ZFZyY2GZOfZPIeXeZ7xazVUb/Udd+E7U=\""
+          "Value": "\"35mttq4Lh8qDRsqlQl6Yd7Dxk2G2unEC8HecDQkleVs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:01:47 GMT"
+          "Value": "Wed, 15 Jan 2025 02:39:19 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "z1rf4bcf4i"
+          "Value": "9illi1txo6"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-t0aNAa6CNx1ZFZyY2GZOfZPIeXeZ7xazVUb/Udd+E7U="
+          "Value": "sha256-35mttq4Lh8qDRsqlQl6Yd7Dxk2G2unEC8HecDQkleVs="
         },
         {
           "Name": "label",
@@ -1216,13 +942,13 @@
       ]
     },
     {
-      "Route": "_framework/CryptoExchangeTrainingUI.z1rf4bcf4i.wasm",
-      "AssetFile": "_framework/CryptoExchangeTrainingUI.z1rf4bcf4i.wasm.gz",
+      "Route": "_framework/CryptoExchangeTrainingUI.9illi1txo6.wasm",
+      "AssetFile": "_framework/CryptoExchangeTrainingUI.9illi1txo6.wasm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000040786361"
+          "Quality": "0.000041040795"
         }
       ],
       "ResponseHeaders": [
@@ -1240,7 +966,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "24517"
+          "Value": "24365"
         },
         {
           "Name": "Content-Type",
@@ -1248,15 +974,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Iqw7PO/5q2lRagI4Ln1wonJXq5XO9AqfhjV4w5lle1o=\""
+          "Value": "\"J5Zv2mhE20gYq1bxbK5FRn6LITWV6ttyEPzRD8EX5Ss=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"t0aNAa6CNx1ZFZyY2GZOfZPIeXeZ7xazVUb/Udd+E7U=\""
+          "Value": "W/\"35mttq4Lh8qDRsqlQl6Yd7Dxk2G2unEC8HecDQkleVs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:01:47 GMT"
+          "Value": "Wed, 15 Jan 2025 02:39:19 GMT"
         },
         {
           "Name": "Vary",
@@ -1266,11 +992,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "z1rf4bcf4i"
+          "Value": "9illi1txo6"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-t0aNAa6CNx1ZFZyY2GZOfZPIeXeZ7xazVUb/Udd+E7U="
+          "Value": "sha256-35mttq4Lh8qDRsqlQl6Yd7Dxk2G2unEC8HecDQkleVs="
         },
         {
           "Name": "label",
@@ -1279,8 +1005,8 @@
       ]
     },
     {
-      "Route": "_framework/CryptoExchangeTrainingUI.z1rf4bcf4i.wasm.gz",
-      "AssetFile": "_framework/CryptoExchangeTrainingUI.z1rf4bcf4i.wasm.gz",
+      "Route": "_framework/CryptoExchangeTrainingUI.9illi1txo6.wasm.gz",
+      "AssetFile": "_framework/CryptoExchangeTrainingUI.9illi1txo6.wasm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1297,7 +1023,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "24517"
+          "Value": "24365"
         },
         {
           "Name": "Content-Type",
@@ -1305,11 +1031,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Iqw7PO/5q2lRagI4Ln1wonJXq5XO9AqfhjV4w5lle1o=\""
+          "Value": "\"J5Zv2mhE20gYq1bxbK5FRn6LITWV6ttyEPzRD8EX5Ss=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:01:47 GMT"
+          "Value": "Wed, 15 Jan 2025 02:39:19 GMT"
         },
         {
           "Name": "Vary",
@@ -1319,15 +1045,289 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "z1rf4bcf4i"
+          "Value": "9illi1txo6"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Iqw7PO/5q2lRagI4Ln1wonJXq5XO9AqfhjV4w5lle1o="
+          "Value": "sha256-J5Zv2mhE20gYq1bxbK5FRn6LITWV6ttyEPzRD8EX5Ss="
         },
         {
           "Name": "label",
           "Value": "_framework/CryptoExchangeTrainingUI.wasm.gz"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/CryptoExchangeTrainingUI.pdb",
+      "AssetFile": "_framework/CryptoExchangeTrainingUI.5cnwe8xzwz.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50796"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JfziAeSXtmMUtJYlH38UEMS4nb8MVaTjECD8Q3hgXjA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 02:39:18 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JfziAeSXtmMUtJYlH38UEMS4nb8MVaTjECD8Q3hgXjA="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/CryptoExchangeTrainingUI.pdb",
+      "AssetFile": "_framework/CryptoExchangeTrainingUI.5cnwe8xzwz.pdb.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000026462027"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37789"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7+AmKV8wKdppuMPtN6xOJD1sUB0N+OiVxF+n0BW40io=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"JfziAeSXtmMUtJYlH38UEMS4nb8MVaTjECD8Q3hgXjA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 02:39:19 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JfziAeSXtmMUtJYlH38UEMS4nb8MVaTjECD8Q3hgXjA="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/CryptoExchangeTrainingUI.pdb.gz",
+      "AssetFile": "_framework/CryptoExchangeTrainingUI.5cnwe8xzwz.pdb.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37789"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7+AmKV8wKdppuMPtN6xOJD1sUB0N+OiVxF+n0BW40io=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 02:39:19 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7+AmKV8wKdppuMPtN6xOJD1sUB0N+OiVxF+n0BW40io="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/CryptoExchangeTrainingUI.wasm",
+      "AssetFile": "_framework/CryptoExchangeTrainingUI.9illi1txo6.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61205"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"35mttq4Lh8qDRsqlQl6Yd7Dxk2G2unEC8HecDQkleVs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 02:39:19 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-35mttq4Lh8qDRsqlQl6Yd7Dxk2G2unEC8HecDQkleVs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/CryptoExchangeTrainingUI.wasm",
+      "AssetFile": "_framework/CryptoExchangeTrainingUI.9illi1txo6.wasm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000041040795"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24365"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J5Zv2mhE20gYq1bxbK5FRn6LITWV6ttyEPzRD8EX5Ss=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"35mttq4Lh8qDRsqlQl6Yd7Dxk2G2unEC8HecDQkleVs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 02:39:19 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-35mttq4Lh8qDRsqlQl6Yd7Dxk2G2unEC8HecDQkleVs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/CryptoExchangeTrainingUI.wasm.gz",
+      "AssetFile": "_framework/CryptoExchangeTrainingUI.9illi1txo6.wasm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24365"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J5Zv2mhE20gYq1bxbK5FRn6LITWV6ttyEPzRD8EX5Ss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 02:39:19 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-J5Zv2mhE20gYq1bxbK5FRn6LITWV6ttyEPzRD8EX5Ss="
         }
       ]
     },
@@ -60954,17 +60954,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"IizFOUkQuQgMxe/gQkys9v+/wOSfS4B9YhtRIIw0mW8=\""
+          "Value": "\"OAiimKr8NIte4ODG0AJ86+JFnO+KadbDbui3NOOXoBY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:01:47 GMT"
+          "Value": "Wed, 15 Jan 2025 02:39:19 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-IizFOUkQuQgMxe/gQkys9v+/wOSfS4B9YhtRIIw0mW8="
+          "Value": "sha256-OAiimKr8NIte4ODG0AJ86+JFnO+KadbDbui3NOOXoBY="
         }
       ]
     },
@@ -60975,7 +60975,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000076429227"
+          "Quality": "0.000076423386"
         }
       ],
       "ResponseHeaders": [
@@ -60993,7 +60993,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13083"
+          "Value": "13084"
         },
         {
           "Name": "Content-Type",
@@ -61001,15 +61001,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"br+apPUFvBUudBANF8EuChmVmNSpZymuPnEDzHemmBo=\""
+          "Value": "\"8wEg8GP2O18gxBh6QCl/zrVTcF3dWJOlNHS2p0so/fQ=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"IizFOUkQuQgMxe/gQkys9v+/wOSfS4B9YhtRIIw0mW8=\""
+          "Value": "W/\"OAiimKr8NIte4ODG0AJ86+JFnO+KadbDbui3NOOXoBY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:00:44 GMT"
+          "Value": "Wed, 15 Jan 2025 02:37:36 GMT"
         },
         {
           "Name": "Vary",
@@ -61019,7 +61019,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-IizFOUkQuQgMxe/gQkys9v+/wOSfS4B9YhtRIIw0mW8="
+          "Value": "sha256-OAiimKr8NIte4ODG0AJ86+JFnO+KadbDbui3NOOXoBY="
         }
       ]
     },
@@ -61042,7 +61042,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13083"
+          "Value": "13084"
         },
         {
           "Name": "Content-Type",
@@ -61050,11 +61050,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"br+apPUFvBUudBANF8EuChmVmNSpZymuPnEDzHemmBo=\""
+          "Value": "\"8wEg8GP2O18gxBh6QCl/zrVTcF3dWJOlNHS2p0so/fQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 02:00:44 GMT"
+          "Value": "Wed, 15 Jan 2025 02:37:36 GMT"
         },
         {
           "Name": "Vary",
@@ -61064,7 +61064,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-br+apPUFvBUudBANF8EuChmVmNSpZymuPnEDzHemmBo="
+          "Value": "sha256-8wEg8GP2O18gxBh6QCl/zrVTcF3dWJOlNHS2p0so/fQ="
         }
       ]
     },

@@ -1137,10 +1137,10 @@ C:\CryptoExchangeTraining\CryptoExchangeTrainingUI\obj\Debug\net9.0\CryptoExchan
 C:\CryptoExchangeTraining\CryptoExchangeTrainingUI\obj\Debug\net9.0\refint\CryptoExchangeTrainingUI.dll
 C:\CryptoExchangeTraining\CryptoExchangeTrainingUI\obj\Debug\net9.0\CryptoExchangeTrainingUI.pdb
 C:\CryptoExchangeTraining\CryptoExchangeTrainingUI\obj\Debug\net9.0\ref\CryptoExchangeTrainingUI.dll
-C:\CryptoExchangeTraining\CryptoExchangeTrainingUI\bin\Debug\net9.0\wwwroot\_framework\CryptoExchangeTrainingUI.xm96f6cmpt.pdb
-C:\CryptoExchangeTraining\CryptoExchangeTrainingUI\bin\Debug\net9.0\wwwroot\_framework\CryptoExchangeTrainingUI.z1rf4bcf4i.wasm
-C:\CryptoExchangeTraining\CryptoExchangeTrainingUI\bin\Debug\net9.0\wwwroot\_framework\CryptoExchangeTrainingUI.xm96f6cmpt.pdb.gz
-C:\CryptoExchangeTraining\CryptoExchangeTrainingUI\bin\Debug\net9.0\wwwroot\_framework\CryptoExchangeTrainingUI.z1rf4bcf4i.wasm.gz
-C:\CryptoExchangeTraining\CryptoExchangeTrainingUI\obj\Debug\net9.0\compressed\tnbrz4a7az-z1rf4bcf4i.gz
-C:\CryptoExchangeTraining\CryptoExchangeTrainingUI\obj\Debug\net9.0\compressed\mxuppp8ofg-xm96f6cmpt.gz
-C:\CryptoExchangeTraining\CryptoExchangeTrainingUI\obj\Debug\net9.0\compressed\wzt1wchbtk-20e17iw9bl.gz
+C:\CryptoExchangeTraining\CryptoExchangeTrainingUI\bin\Debug\net9.0\wwwroot\_framework\CryptoExchangeTrainingUI.5cnwe8xzwz.pdb
+C:\CryptoExchangeTraining\CryptoExchangeTrainingUI\bin\Debug\net9.0\wwwroot\_framework\CryptoExchangeTrainingUI.9illi1txo6.wasm
+C:\CryptoExchangeTraining\CryptoExchangeTrainingUI\bin\Debug\net9.0\wwwroot\_framework\CryptoExchangeTrainingUI.5cnwe8xzwz.pdb.gz
+C:\CryptoExchangeTraining\CryptoExchangeTrainingUI\bin\Debug\net9.0\wwwroot\_framework\CryptoExchangeTrainingUI.9illi1txo6.wasm.gz
+C:\CryptoExchangeTraining\CryptoExchangeTrainingUI\obj\Debug\net9.0\compressed\tnbrz4a7az-9illi1txo6.gz
+C:\CryptoExchangeTraining\CryptoExchangeTrainingUI\obj\Debug\net9.0\compressed\mxuppp8ofg-5cnwe8xzwz.gz
+C:\CryptoExchangeTraining\CryptoExchangeTrainingUI\obj\Debug\net9.0\compressed\wzt1wchbtk-8oxzbi8657.gz

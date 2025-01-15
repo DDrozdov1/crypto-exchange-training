@@ -1,20 +1,15 @@
-﻿
-@page "/register"
+﻿@page "/register"
 @inject IAuthService AuthService
 @inject NavigationManager NavigationManager
-@inject ILogger<Register> Logger
 
 <div class="auth-container">
     <div class="auth-box">
         <h3 class="text-center mb-4">Register</h3>
 
-        @if (errors.Any())
+        @if (!string.IsNullOrEmpty(message))
         {
-            <div class="alert alert-danger">
-                @foreach (var error in errors)
-                {
-                    <div>@error</div>
-                }
+            <div class="alert alert-info">
+                @message
             </div>
         }
 
@@ -56,31 +51,22 @@
 
 @code {
     private RegisterRequest registerRequest = new();
-    private List<string> errors = new();
     private bool isLoading;
+    private string message = string.Empty;
 
     private async Task HandleRegister()
     {
         try
         {
             isLoading = true;
-            errors.Clear();
-
             var response = await AuthService.Register(registerRequest);
 
             if (response.Success)
             {
+                message = "Registration successful";
+                await Task.Delay(2000); // Небольшая задержка для отображения сообщения
                 NavigationManager.NavigateTo("/login");
             }
-            else
-            {
-                errors.AddRange(response.Errors);
-            }
-        }
-        catch (Exception ex)
-        {
-            Logger.LogError(ex, "Registration error");
-            errors.Add("An unexpected error occurred. Please try again.");
         }
         finally
         {
