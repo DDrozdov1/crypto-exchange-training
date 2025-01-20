@@ -111,18 +111,38 @@ namespace CryptoExchangeTrainingUI.Services.Authentication
 
                 if (response.IsSuccessStatusCode)
                 {
+                    var authResponse = await response.Content.ReadFromJsonAsync<AuthResponse>();
+                    if (authResponse != null && authResponse.Success)
+                    {
+                        return new AuthResponse
+                        {
+                            Success = true,
+                            Message = "Registration successful"
+                        };
+                    }
+                    // If success is false, but we got an AuthResponse, use its details
+                    return authResponse ?? new AuthResponse { Success = false, Message = "An unexpected error occurred" };
+                }
+                else
+                {
+                    var errors = await _errorHandler.HandleApiError(response);
                     return new AuthResponse
                     {
-                        Success = true,
-                        Message = "Registration successful"
+                        Success = false,
+                        Message = "Registration failed",
+                        Errors = errors
                     };
                 }
-
-                return new AuthResponse { Success = false };
             }
-            catch
+            catch (Exception ex)
             {
-                return new AuthResponse { Success = false };
+                _logger.LogError(ex, "Error during registration");
+                return new AuthResponse
+                {
+                    Success = false,
+                    Message = "An error occurred while attempting to register",
+                    Errors = new List<string> { ex.Message }
+                };
             }
         }
 

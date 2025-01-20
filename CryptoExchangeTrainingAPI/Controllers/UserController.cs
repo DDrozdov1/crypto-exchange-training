@@ -3,38 +3,30 @@ using CryptoExchangeTrainingAPI.Data;
 using Microsoft.AspNetCore.Authorization;
 using CryptoExchangeTrainingAPI.Models;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 
 namespace CryptoExchangeTrainingAPI.Controllers
 {
-    /// <summary>
-    /// Контроллер для управления пользователями.
-    /// </summary>
     [ApiController]
     [Route("api/[controller]")]
     public class UserController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
 
-        /// <summary>
-        /// Конструктор UserController.
-        /// </summary>
-        /// <param name="context">Контекст базы данных.</param>
         public UserController(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        /// <summary>
-        /// Получить профиль текущего пользователя.
-        /// </summary>
-        /// <returns>Данные профиля пользователя.</returns>
-        /// <response code="200">Профиль успешно получен.</response>
-        /// <response code="401">Пользователь не авторизован.</response>        
         [HttpGet("profile")]
         [Authorize]
         public async Task<IActionResult> GetProfile()
         {
             var userId = User.FindFirst("id")?.Value;
+            if (userId == null)
+            {
+                return Unauthorized("Пользователь не найден.");
+            }
             var user = await _context.Users.FindAsync(userId);
 
             if (user == null)
@@ -42,22 +34,41 @@ namespace CryptoExchangeTrainingAPI.Controllers
                 return Unauthorized("Пользователь не найден.");
             }
 
+            var assets = await _context.UserAssets
+              .Where(a => a.UserId == userId)
+              .Select(a => new
+              {
+                  a.Asset,
+                  a.Balance
+              })
+              .ToListAsync();
+
+
+            var assetsWithPrice = new List<object>();
+
+            foreach (var asset in assets)
+            {
+                // Временно установим цену в 100, тут будет логика получения реальной цены
+                decimal currentPrice = 100.00m;
+
+                assetsWithPrice.Add(new
+                {
+                    Symbol = asset.Asset,
+                    Quantity = asset.Balance,
+                    CurrentPrice = currentPrice
+                });
+            }
+
             return Ok(new
             {
                 user.Email,
                 user.Balance,
                 user.CreatedAt,
-                user.LastLoginAt
+                user.LastLoginAt,
+                Assets = assetsWithPrice
             });
         }
 
-        /// <summary>
-        /// Пополнить баланс пользователя.
-        /// </summary>
-        /// <param name="request">Сумма для пополнения.</param>
-        /// <returns>Обновленный баланс пользователя.</returns>
-        /// <response code="200">Баланс успешно пополнен.</response>
-        /// <response code="400">Некорректные данные для пополнения.</response>
         [HttpPost("deposit")]
         [Authorize]
         public async Task<IActionResult> Deposit([FromBody] DepositRequestDto request)
@@ -75,17 +86,18 @@ namespace CryptoExchangeTrainingAPI.Controllers
                 return Unauthorized("Пользователь не найден.");
             }
 
+            // Логирование перед изменением
+            Console.WriteLine($"Баланс до пополнения: {user.Balance}");
+
             user.Balance += request.Amount;
             await _context.SaveChangesAsync();
 
+            // Логирование после сохранения изменений
+            Console.WriteLine($"Баланс после пополнения: {user.Balance}");
+
             return Ok(new { Balance = user.Balance });
         }
-        /// <summary>
-        /// Получить историю сделок пользователя.
-        /// </summary>
-        /// <returns>Список сделок текущего пользователя.</returns>
-        /// <response code="200">История сделок успешно получена.</response>
-        /// <response code="401">Пользователь не авторизован.</response>
+
         [HttpGet("transactions")]
         [Authorize]
         public async Task<IActionResult> GetTransactionHistory()
@@ -126,6 +138,7 @@ namespace CryptoExchangeTrainingAPI.Controllers
                 Data = tradeDtos
             });
         }
+
 
     }
 }

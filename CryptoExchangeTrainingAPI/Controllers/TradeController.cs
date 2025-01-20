@@ -19,12 +19,12 @@ namespace CryptoExchangeTrainingAPI.Controllers
         private readonly IMarketService _marketService;
         private readonly INotificationService _notificationService;
 
-
         /// <summary>
         /// Конструктор контроллера TradeController.
         /// </summary>
         /// <param name="context">Контекст базы данных.</param>
         /// <param name="marketService">Сервис для получения рыночных данных.</param>
+        /// <param name="notificationService">Сервис для отправки уведомлений.</param>
         public TradeController(ApplicationDbContext context, IMarketService marketService, INotificationService notificationService)
         {
             _context = context;
@@ -73,7 +73,6 @@ namespace CryptoExchangeTrainingAPI.Controllers
         [Authorize]
         public async Task<IActionResult> OpenTrade([FromBody] OpenTradeRequestDto request)
         {
-            // Проверка на валидность запроса
             if (request == null || string.IsNullOrEmpty(request.Pair) || string.IsNullOrEmpty(request.Type) || request.Amount <= 0)
             {
                 return BadRequest("Некорректные данные для открытия сделки.");
@@ -87,19 +86,22 @@ namespace CryptoExchangeTrainingAPI.Controllers
                 return Unauthorized("Пользователь не найден.");
             }
 
-            var fee = request.Amount * 0.001m;
+            var fee = request.Amount * 0.001m; // Пример комиссии
 
-            // Проверка баланса пользователя
             if (user.Balance < request.Amount + fee)
             {
                 return BadRequest("Недостаточно средств для открытия сделки с учетом комиссии.");
             }
 
-            // Уменьшение баланса пользователя
             user.Balance -= request.Amount + fee;
-            var orderBook = await _marketService.GetOrderBookAsync(request.Pair);
-            decimal price;
 
+            var orderBook = await _marketService.GetOrderBookAsync(request.Pair);
+            if (orderBook == null || orderBook.Asks == null || orderBook.Bids == null || (!orderBook.Asks.Any() && !orderBook.Bids.Any()))
+            {
+                return BadRequest("Не удалось получить данные о рыночных ордерах.");
+            }
+
+            decimal price;
             if (request.Type.ToLower() == "buy")
             {
                 price = decimal.Parse(orderBook.Asks.First()[0], CultureInfo.InvariantCulture);
@@ -108,6 +110,7 @@ namespace CryptoExchangeTrainingAPI.Controllers
             {
                 price = decimal.Parse(orderBook.Bids.First()[0], CultureInfo.InvariantCulture);
             }
+
             // Создание сделки
             var trade = new Trade
             {
@@ -116,7 +119,7 @@ namespace CryptoExchangeTrainingAPI.Controllers
                 Type = request.Type.ToLower(),
                 Leverage = request.Leverage,
                 Amount = request.Amount,
-                EntryPrice = await _marketService.GetPriceAsync(request.Pair),
+                EntryPrice = price, // использовать цену из книги ордеров
                 StopLoss = request.StopLoss,
                 TakeProfit = request.TakeProfit,
                 OpenedAt = DateTime.UtcNow,
@@ -124,11 +127,11 @@ namespace CryptoExchangeTrainingAPI.Controllers
                 Fee = fee,
             };
 
-            await _context.Trades.AddAsync(trade);
+            _context.Trades.Add(trade);
             await _context.SaveChangesAsync();
             await _notificationService.CreateNotificationAsync(userId, $"Сделка на {request.Pair} успешно открыта.");
 
-            // Возвращаем TradeDto вместо сущности Trade
+            // Возвращаем TradeDto
             var tradeDto = new TradeDto
             {
                 Id = trade.Id,
@@ -146,7 +149,6 @@ namespace CryptoExchangeTrainingAPI.Controllers
 
             return Ok(tradeDto);
         }
-
         /// <summary>
         /// Закрыть сделку.
         /// </summary>
@@ -219,5 +221,6 @@ namespace CryptoExchangeTrainingAPI.Controllers
 
             return Ok(trade);
         }
+
     }
 }

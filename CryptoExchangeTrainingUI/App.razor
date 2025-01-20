@@ -1,29 +1,29 @@
-﻿
-<CascadingAuthenticationState>
+﻿<CascadingAuthenticationState>
+    <MudThemeProvider/>
+    <MudDialogProvider/>
+    <MudSnackbarProvider/>
+    <MudPopoverProvider/>
+
     <Router AppAssembly="@typeof(App).Assembly">
         <Found Context="routeData">
             <AuthorizeRouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)">
-                <Authorizing>
-                    <text>Authorizing...</text>
-                </Authorizing>
                 <NotAuthorized>
-                    <div class="alert alert-warning">
-                        @if (context.User.Identity?.IsAuthenticated != true)
-                        {
-                            <p>You are not authorized to access this page. Please <a href="login">login</a> first.</p>
-                        }
-                        else
-                        {
-                            <p>You are not authorized to access this resource.</p>
-                        }
-                    </div>
+                    @if (context.User.Identity?.IsAuthenticated != true)
+                    {
+                        <RedirectToLogin />
+                    }
+                    else
+                    {
+                        <p>У вас нет доступа к этой странице.</p>
+                    }
                 </NotAuthorized>
             </AuthorizeRouteView>
+            <FocusOnNavigate RouteData="@routeData" Selector="h1" />
         </Found>
         <NotFound>
-            <PageTitle>Not found</PageTitle>
+            <PageTitle>Не найдено</PageTitle>
             <LayoutView Layout="@typeof(MainLayout)">
-                <p role="alert">Sorry, there's nothing at this address.</p>
+                <p>Извините, по этому адресу ничего не найдено.</p>
             </LayoutView>
         </NotFound>
     </Router>

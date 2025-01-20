@@ -2,9 +2,8 @@
 {
     public class TokenDto
     {
-        public string Symbol { get; set; } = string.Empty; // Символ токена (например, BTC)
-        public string Name { get; set; } = string.Empty; // Название токена
-        public decimal Price { get; set; } // Добавлено поле для цены
-
+        public string Symbol { get; set; } = string.Empty; // Символ токена (BTC, ETH)
+        public string Name { get; set; } = string.Empty; // Название токена (Bitcoin, Ethereum)
+        public decimal Price { get; set; } // Цена токена
     }
 }

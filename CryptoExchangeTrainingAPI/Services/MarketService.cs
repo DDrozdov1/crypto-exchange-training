@@ -34,7 +34,6 @@ namespace CryptoExchangeTrainingAPI.Services
         {
             if (!_cache.TryGetValue(pair, out decimal price))
             {
-                // Если в кэше нет данных, делаем запрос
                 var response = await _httpClient.GetAsync($"https://api.binance.com/api/v3/ticker/price?symbol={pair}");
                 if (!response.IsSuccessStatusCode)
                 {

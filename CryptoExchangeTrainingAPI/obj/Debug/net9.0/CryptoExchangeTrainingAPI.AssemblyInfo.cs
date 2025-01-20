@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CryptoExchangeTrainingAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6240d66fd33835537efe89ad5bc7b6e5af0ed190")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+192125bbe1f83c518d8103759ff11429bc6c68e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("CryptoExchangeTrainingAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CryptoExchangeTrainingAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

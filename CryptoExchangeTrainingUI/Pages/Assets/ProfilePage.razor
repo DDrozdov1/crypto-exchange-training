@@ -1,0 +1,168 @@
+﻿@page "/profile"
+@using CryptoExchangeTrainingUI.Services.Authentication
+@using CryptoExchangeTrainingUI.Services.Common
+@inject HttpClient Http
+@inject IAuthService AuthService
+@inject IApiErrorHandler ErrorHandler
+@inject NavigationManager NavigationManager
+@using System.Net.Http.Headers
+@using System.Net.Http.Json
+@using CryptoExchangeTrainingUI.Models.User
+@using CryptoExchangeTrainingUI.Models.Common
+@using System.Globalization
+
+<div class="container">
+    <h2 class="mb-4">Профиль пользователя</h2>
+
+    @if (_isLoading)
+    {
+        <p><em>Загрузка...</em></p>
+    }
+    else if (_errors.Any())
+    {
+        <div class="alert alert-danger">
+            @foreach (var error in _errors)
+            {
+                <p>@error</p>
+            }
+        </div>
+    }
+    else if (_profile != null)
+    {
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Информация о пользователе</h5>
+                <div class="mb-3">
+                    <label class="form-label">Email:</label>
+                    <input type="text" class="form-control" value="@_profile.Email" readonly />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Баланс:</label>
+                    <input type="text" class="form-control" value="@_profile.Balance.ToString("C", CultureInfo.CurrentCulture)" readonly />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Дата регистрации:</label>
+                    <input type="text" class="form-control" value="@_profile.CreatedAt.ToString("F", CultureInfo.CurrentCulture)" readonly />
+                </div>
+            </div>
+        </div>
+        <div class="card mt-4">
+            <div class="card-body">
+                <h5 class="card-title">Пополнение баланса</h5>
+                <div class="mb-3">
+                    <label class="form-label">Сумма пополнения:</label>
+                    <input type="number" class="form-control" @bind="_depositAmount" />
+                </div>
+                <button class="btn btn-primary" @onclick="DepositBalance">Пополнить</button>
+                @if (_depositErrors.Any())
+                {
+                    <div class="alert alert-danger mt-2">
+                        @foreach (var error in _depositErrors)
+                        {
+                            <p>@error</p>
+                        }
+                    </div>
+                }
+                @if (_depositSuccessMessage != null)
+                {
+                    <div class="alert alert-success mt-2">
+                        <p>@_depositSuccessMessage</p>
+                    </div>
+                }
+            </div>
+        </div>
+    }
+    else
+    {
+        <p>Информация о пользователе не доступна.</p>
+    }
+</div>
+
+@code {
+    private UserDto? _profile;
+    private bool _isLoading = true;
+    private List<string> _errors = new List<string>();
+    private decimal _depositAmount;
+    private List<string> _depositErrors = new List<string>();
+    private string? _depositSuccessMessage;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadProfile();
+        _isLoading = false;
+    }
+
+    private async Task LoadProfile()
+    {
+        _isLoading = true;
+        _errors.Clear();
+        try
+        {
+            var token = await AuthService.GetToken();
+            if (string.IsNullOrEmpty(token))
+            {
+                _errors.Add("Вы не аутентифицированы.");
+                return;
+            }
+
+            Http.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            var response = await Http.GetAsync("/api/user/profile");
+            if (!response.IsSuccessStatusCode)
+            {
+                _errors = await ErrorHandler.HandleApiError(response);
+                return;
+            }
+
+            _profile = await response.Content.ReadFromJsonAsync<UserDto>();
+        }
+        catch (HttpRequestException ex)
+        {
+            _errors.Add($"Ошибка при загрузке профиля: {ex.Message}");
+        }
+        finally
+        {
+            _isLoading = false;
+        }
+    }
+
+    private async Task DepositBalance()
+    {
+        _depositErrors.Clear();
+        _depositSuccessMessage = null;
+        if (_depositAmount <= 0)
+        {
+            _depositErrors.Add("Сумма пополнения должна быть больше нуля.");
+            return;
+        }
+        try
+        {
+            var token = await AuthService.GetToken();
+            if (string.IsNullOrEmpty(token))
+            {
+                _depositErrors.Add("Вы не аутентифицированы.");
+                return;
+            }
+
+            Http.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            var response = await Http.PostAsJsonAsync("/api/user/deposit", new { Amount = _depositAmount });
+
+            if (!response.IsSuccessStatusCode)
+            {
+                _depositErrors = await ErrorHandler.HandleApiError(response);
+                return;
+            }
+            var result = await response.Content.ReadFromJsonAsync<DepositResponseDto>();
+            if (result?.Balance != null)
+            {
+                _profile.Balance = result.Balance;
+                _depositSuccessMessage = "Баланс успешно пополнен.";
+
+            }
+
+        }
+        catch (HttpRequestException ex)
+        {
+            _depositErrors.Add($"Ошибка при пополнении баланса: {ex.Message}");
+        }
+    }
+}

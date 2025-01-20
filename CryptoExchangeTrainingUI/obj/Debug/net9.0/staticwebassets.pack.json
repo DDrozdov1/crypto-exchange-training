@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\CryptoExchangeTrainingUI.styles.css"
     },
     {
+      "Id": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\wwwroot\\appsettings.json",
+      "PackagePath": "staticwebassets\\appsettings.json"
+    },
+    {
       "Id": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },

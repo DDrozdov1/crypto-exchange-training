@@ -3,192 +3,121 @@
   "WorkspaceRootPath": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\controllers\\assetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:controllers\\assetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\controllers\\tradecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:controllers\\tradecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\controllers\\websocketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:controllers\\websocketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\models\\orderbookresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:models\\orderbookresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\models\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:models\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\models\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:models\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\services\\trademonitoringservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:services\\trademonitoringservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\services\\marketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:services\\marketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\models\\user\\depositrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\pages\\assets\\assets.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\pages\\assets\\transactions.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\services\\pricehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:services\\pricehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\models\\opentraderequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:models\\opentraderequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\models\\depositrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:models\\depositrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\models\\userasset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:models\\userasset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\controllers\\marketdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:controllers\\marketdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\models\\user\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\models\\user\\tradedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\models\\user\\userassetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\models\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\helpers\\jwtparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\models\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\models\\marketdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:models\\marketdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\migrations\\20250114071645_addorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:migrations\\20250114071645_addorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\controllers\\marketdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:controllers\\marketdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\models\\userasset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:models\\userasset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\pages\\assets\\tradepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\services\\trade\\tradeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\models\\user\\tradedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\models\\user\\traderequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\models\\orderbookresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:models\\orderbookresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\models\\trade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:models\\trade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\configuration\\apisettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Migrations\\20250115060736_RemovePriceFromToken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250115060736_RemovePriceFromToken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Migrations\\20250115053917_AddTableToken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250115053917_AddTableToken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\models\\tradedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:models\\tradedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\models\\historicaldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:models\\historicaldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\models\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:models\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\services\\common\\apierrorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\controllers\\tradecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:controllers\\tradecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\controllers\\chartcontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:controllers\\chartcontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\controllers\\assetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:controllers\\assetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\cryptoexchangetrainingui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\models\\authentication\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\models\\user\\depositrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\services\\trade\\itradeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\services\\pricehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:services\\pricehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\services\\icacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:services\\icacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\services\\http\\httpinterceptorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\layout\\errordisplay.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\layout\\loadingspinner.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\models\\authentication\\errordetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\services\\authentication\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\services\\authentication\\customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -197,37 +126,166 @@
       "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\services\\authentication\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\models\\authentication\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\models\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\models\\authentication\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\models\\user\\userassetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\models\\user\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\models\\user\\depositresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\models\\user\\assetinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\models\\authentication\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\models\\authentication\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\models\\authentication\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\pages\\authentication\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\models\\authentication\\errordetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\helpers\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\services\\common\\iapierrorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\pages\\authentication\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\services\\authentication\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\models\\authentication\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\helpers\\validationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\helpers\\jwtparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\helpers\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\extensions\\httpclientextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\configuration\\apisettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\services\\ihttprequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:services\\ihttprequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\authentication\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:authentication\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\controllers\\websocketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:controllers\\websocketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\migrations\\20250115060736_removepricefromtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:migrations\\20250115060736_removepricefromtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\models\\response\\assetresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:models\\response\\assetresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\models\\response\\profileresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:models\\response\\profileresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\models\\depositrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:models\\depositrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\models\\historicaldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:models\\historicaldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\models\\opentraderequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:models\\opentraderequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\models\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:models\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\pages\\assets\\transactions.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\pages\\authentication\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\pages\\authentication\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\models\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\services\\common\\iapierrorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\services\\common\\apierrorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\pages\\assets\\profilepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\pages\\assets\\confirmdialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\wwwroot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\layout\\errordisplay.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\layout\\loadingspinner.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\pages\\authentication\\login.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
@@ -236,18 +294,7 @@
       "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\cryptoexchangetrainingui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0204D749-5B34-4669-881B-FB0E23F2F3D4}|..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingui\\pages\\notificationlist\\notificationlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\controllers\\chartcontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:controllers\\chartcontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\authentication\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:authentication\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\c#\\psp\\lab5\\lab5\\car-service\\nodemon.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
@@ -269,10 +316,6 @@
       "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:cryptoexchangetrainingapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\migrations\\20250112040753_identitysetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:migrations\\20250112040753_identitysetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -285,12 +328,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250112040212_IdentitySetup1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\migrations\\20250114071645_addorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:migrations\\20250114071645_addorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\migrations\\20250114071052_addhistoricaldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:migrations\\20250114071052_addhistoricaldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|c:\\cryptoexchangetraining\\cryptoexchangetrainingapi\\migrations\\20250115053917_addtabletoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1AD27D-253D-4EB7-8A8A-4346DDFD36D7}|CryptoExchangeTrainingAPI.csproj|solutionrelative:migrations\\20250115053917_addtabletoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -300,895 +343,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TradeController.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Controllers\\TradeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TradeController.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Controllers\\TradeController.cs",
-              "RelativeToolTip": "Controllers\\TradeController.cs",
-              "ViewState": "AgIAALkAAAAAAAAAAAAwwM8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "TradeMonitoringService.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Services\\TradeMonitoringService.cs",
+              "RelativeDocumentMoniker": "Services\\TradeMonitoringService.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Services\\TradeMonitoringService.cs",
+              "RelativeToolTip": "Services\\TradeMonitoringService.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAYwFAAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T04:24:20.898Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TokenController.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Controllers\\TokenController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TokenController.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Controllers\\TokenController.cs",
-              "RelativeToolTip": "Controllers\\TokenController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T05:44:38.926Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NotificationController.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Controllers\\NotificationController.cs",
-              "RelativeDocumentMoniker": "Controllers\\NotificationController.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Controllers\\NotificationController.cs",
-              "RelativeToolTip": "Controllers\\NotificationController.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAswEQAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T04:24:49.427Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAQwC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T01:54:10.277Z",
+              "WhenOpened": "2025-01-17T09:07:48.725Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AssetController.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Controllers\\AssetController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AssetController.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Controllers\\AssetController.cs",
-              "RelativeToolTip": "Controllers\\AssetController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T04:24:31.668Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAwwFEAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAIwFsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T01:19:15.148Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-12T01:19:15.148Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T01:12:17.86Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "WebSocketController.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Controllers\\WebSocketController.cs",
-              "RelativeDocumentMoniker": "Controllers\\WebSocketController.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Controllers\\WebSocketController.cs",
-              "RelativeToolTip": "Controllers\\WebSocketController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwFEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T07:02:21.898Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAwwHMAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T04:24:11.185Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "Models\\Order.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\Order.cs",
-              "RelativeToolTip": "Models\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T07:16:09.489Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "OrderBookResponse.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\OrderBookResponse.cs",
-              "RelativeDocumentMoniker": "Models\\OrderBookResponse.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\OrderBookResponse.cs",
-              "RelativeToolTip": "Models\\OrderBookResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T08:39:43.951Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RegisterDto.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\RegisterDto.cs",
-              "RelativeDocumentMoniker": "Models\\RegisterDto.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\RegisterDto.cs",
-              "RelativeToolTip": "Models\\RegisterDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T02:03:32.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Token.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\Token.cs",
-              "RelativeDocumentMoniker": "Models\\Token.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\Token.cs",
-              "RelativeToolTip": "Models\\Token.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T05:23:52.215Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MarketService.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Services\\MarketService.cs",
-              "RelativeDocumentMoniker": "Services\\MarketService.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Services\\MarketService.cs",
-              "RelativeToolTip": "Services\\MarketService.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAwwF0AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T04:25:44.619Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-15T00:34:58.505Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-15T00:33:21.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "DepositRequestDto.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\User\\DepositRequestDto.cs",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Models\\User\\DepositRequestDto.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\User\\DepositRequestDto.cs",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Models\\User\\DepositRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T05:03:02.666Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Assets.razor",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Pages\\Assets\\Assets.razor",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Pages\\Assets\\Assets.razor",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Pages\\Assets\\Assets.razor",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Pages\\Assets\\Assets.razor",
-              "ViewState": "AgIAADIAAAAAAAAAAAAAAEMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-15T04:48:22.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Transactions.razor",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Pages\\Assets\\Transactions.razor",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Pages\\Assets\\Transactions.razor",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Pages\\Assets\\Transactions.razor",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Pages\\Assets\\Transactions.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-15T05:17:04.121Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Index.razor",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Pages\\Index.razor",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Pages\\Index.razor",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Pages\\Index.razor",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Pages\\Index.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-15T00:36:23.741Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Program.cs",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Program.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Program.cs",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T00:37:26.066Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "PriceHub.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Services\\PriceHub.cs",
-              "RelativeDocumentMoniker": "Services\\PriceHub.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Services\\PriceHub.cs",
-              "RelativeToolTip": "Services\\PriceHub.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T07:27:22.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "NotificationService.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Services\\NotificationService.cs",
-              "RelativeDocumentMoniker": "Services\\NotificationService.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Services\\NotificationService.cs",
-              "RelativeToolTip": "Services\\NotificationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T05:58:48.806Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "DepositRequestDto.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\DepositRequestDto.cs",
-              "RelativeDocumentMoniker": "Models\\DepositRequestDto.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\DepositRequestDto.cs",
-              "RelativeToolTip": "Models\\DepositRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T05:08:11.902Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "OpenTradeRequestDto.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\OpenTradeRequestDto.cs",
-              "RelativeDocumentMoniker": "Models\\OpenTradeRequestDto.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\OpenTradeRequestDto.cs",
-              "RelativeToolTip": "Models\\OpenTradeRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T05:20:26.851Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "UserAsset.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\UserAsset.cs",
-              "RelativeDocumentMoniker": "Models\\UserAsset.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\UserAsset.cs",
-              "RelativeToolTip": "Models\\UserAsset.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T01:14:04.197Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "MarketDataController.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Controllers\\MarketDataController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MarketDataController.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Controllers\\MarketDataController.cs",
-              "RelativeToolTip": "Controllers\\MarketDataController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAkwCwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T04:26:42.209Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "TokenDto.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\User\\TokenDto.cs",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Models\\User\\TokenDto.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\User\\TokenDto.cs",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Models\\User\\TokenDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T05:47:04.05Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "TradeDto.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\User\\TradeDto.cs",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Models\\User\\TradeDto.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\User\\TradeDto.cs",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Models\\User\\TradeDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T04:56:54.876Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "UserAssetDto.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\User\\UserAssetDto.cs",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Models\\User\\UserAssetDto.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\User\\UserAssetDto.cs",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Models\\User\\UserAssetDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T05:22:04.784Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "UserDto.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\User\\UserDto.cs",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Models\\User\\UserDto.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\User\\UserDto.cs",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Models\\User\\UserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T00:05:46.808Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "JwtParser.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Helpers\\JwtParser.cs",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Helpers\\JwtParser.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Helpers\\JwtParser.cs",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Helpers\\JwtParser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T00:15:51.064Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\_Imports.razor",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\_Imports.razor",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\_Imports.razor",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\_Imports.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-15T00:43:41.52Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "App.razor",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\App.razor",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\App.razor",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\App.razor",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\App.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-15T00:36:59.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "ApiResponse.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\Common\\ApiResponse.cs",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Models\\Common\\ApiResponse.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\Common\\ApiResponse.cs",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Models\\Common\\ApiResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T00:20:11.001Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Notification.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\Notification.cs",
-              "RelativeDocumentMoniker": "Models\\Notification.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\Notification.cs",
-              "RelativeToolTip": "Models\\Notification.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T01:14:18.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 3,
               "Title": "MarketData.cs",
               "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\MarketData.cs",
               "RelativeDocumentMoniker": "Models\\MarketData.cs",
               "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\MarketData.cs",
               "RelativeToolTip": "Models\\MarketData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T01:13:42.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-12T01:13:42.1Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "LoginDto.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\LoginDto.cs",
-              "RelativeDocumentMoniker": "Models\\LoginDto.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\LoginDto.cs",
-              "RelativeToolTip": "Models\\LoginDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "MarketDataController.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Controllers\\MarketDataController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MarketDataController.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Controllers\\MarketDataController.cs",
+              "RelativeToolTip": "Controllers\\MarketDataController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwCwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T02:03:38.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-12T04:26:42.209Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "Trade.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\Trade.cs",
-              "RelativeDocumentMoniker": "Models\\Trade.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\Trade.cs",
-              "RelativeToolTip": "Models\\Trade.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA/wB4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T01:13:10.722Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "ServiceCollectionExtensions.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Extensions\\ServiceCollectionExtensions.cs",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Extensions\\ServiceCollectionExtensions.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Extensions\\ServiceCollectionExtensions.cs",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Extensions\\ServiceCollectionExtensions.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAMAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T00:16:07.313Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "ApiSettings.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Configuration\\ApiSettings.cs",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Configuration\\ApiSettings.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Configuration\\ApiSettings.cs",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Configuration\\ApiSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T00:16:24.641Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "20250115060736_RemovePriceFromToken.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Migrations\\20250115060736_RemovePriceFromToken.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250115060736_RemovePriceFromToken.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Migrations\\20250115060736_RemovePriceFromToken.cs",
-              "RelativeToolTip": "Migrations\\20250115060736_RemovePriceFromToken.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T06:07:36.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T01:16:22.549Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "20250115053917_AddTableToken.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Migrations\\20250115053917_AddTableToken.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250115053917_AddTableToken.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Migrations\\20250115053917_AddTableToken.cs",
-              "RelativeToolTip": "Migrations\\20250115053917_AddTableToken.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAQwD0AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T05:39:17.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "NavMenu.razor.css",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Layout\\NavMenu.razor.css",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Layout\\NavMenu.razor.css",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Layout\\NavMenu.razor.css",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Layout\\NavMenu.razor.css",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwDAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-01-15T00:57:46.615Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "TradeDto.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\TradeDto.cs",
-              "RelativeDocumentMoniker": "Models\\TradeDto.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\TradeDto.cs",
-              "RelativeToolTip": "Models\\TradeDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T05:26:26.721Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "HistoricalData.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\HistoricalData.cs",
-              "RelativeDocumentMoniker": "Models\\HistoricalData.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\HistoricalData.cs",
-              "RelativeToolTip": "Models\\HistoricalData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T07:09:01.51Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "ApiErrorHandler.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Services\\Common\\ApiErrorHandler.cs",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Services\\Common\\ApiErrorHandler.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Services\\Common\\ApiErrorHandler.cs",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Services\\Common\\ApiErrorHandler.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T00:23:10.916Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "HttpInterceptorService.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Services\\Http\\HttpInterceptorService.cs",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Services\\Http\\HttpInterceptorService.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Services\\Http\\HttpInterceptorService.cs",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Services\\Http\\HttpInterceptorService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T00:15:09.859Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "app.css",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\wwwroot\\css\\app.css",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\wwwroot\\css\\app.css",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\wwwroot\\css\\app.css",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\wwwroot\\css\\app.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOkBAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-01-15T00:50:12.647Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "ErrorDisplay.razor",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Layout\\ErrorDisplay.razor",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Layout\\ErrorDisplay.razor",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Layout\\ErrorDisplay.razor",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Layout\\ErrorDisplay.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-15T00:14:03.369Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "LoadingSpinner.razor",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Layout\\LoadingSpinner.razor",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Layout\\LoadingSpinner.razor",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Layout\\LoadingSpinner.razor",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Layout\\LoadingSpinner.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-15T00:13:57.083Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "ErrorDetails.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\Authentication\\ErrorDetails.cs",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Models\\Authentication\\ErrorDetails.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\Authentication\\ErrorDetails.cs",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Models\\Authentication\\ErrorDetails.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T02:10:42.311Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "CustomAuthenticationStateProvider.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Services\\Authentication\\CustomAuthenticationStateProvider.cs",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Services\\Authentication\\CustomAuthenticationStateProvider.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Services\\Authentication\\CustomAuthenticationStateProvider.cs",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Services\\Authentication\\CustomAuthenticationStateProvider.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T00:24:20.147Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Services\\Authentication\\AuthService.cs",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Services\\Authentication\\AuthService.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Services\\Authentication\\AuthService.cs",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Services\\Authentication\\AuthService.cs",
-              "ViewState": "AgIAAKkAAAAAAAAAAAAgwL4AAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T07:55:03.192Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "AuthResponse.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\Authentication\\AuthResponse.cs",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Models\\Authentication\\AuthResponse.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\Authentication\\AuthResponse.cs",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Models\\Authentication\\AuthResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T23:59:44.959Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "LoginRequest.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\Authentication\\LoginRequest.cs",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Models\\Authentication\\LoginRequest.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\Authentication\\LoginRequest.cs",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Models\\Authentication\\LoginRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T23:59:39.09Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "RegisterRequest.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\Authentication\\RegisterRequest.cs",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Models\\Authentication\\RegisterRequest.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\Authentication\\RegisterRequest.cs",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Models\\Authentication\\RegisterRequest.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAkwCgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T00:05:07.235Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "LoginResponse.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\Authentication\\LoginResponse.cs",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Models\\Authentication\\LoginResponse.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\Authentication\\LoginResponse.cs",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Models\\Authentication\\LoginResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T02:10:14.971Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "Register.razor",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Pages\\Authentication\\Register.razor",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Pages\\Authentication\\Register.razor",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Pages\\Authentication\\Register.razor",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Pages\\Authentication\\Register.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-14T07:56:23.948Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "Constants.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Helpers\\Constants.cs",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Helpers\\Constants.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Helpers\\Constants.cs",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Helpers\\Constants.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T00:15:42.91Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "Login.razor",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Pages\\Authentication\\Login.razor",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Pages\\Authentication\\Login.razor",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Pages\\Authentication\\Login.razor",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Pages\\Authentication\\Login.razor",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-14T07:56:16.915Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "IApiErrorHandler.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Services\\Common\\IApiErrorHandler.cs",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Services\\Common\\IApiErrorHandler.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Services\\Common\\IApiErrorHandler.cs",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Services\\Common\\IApiErrorHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T00:15:22.833Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Services\\Authentication\\IAuthService.cs",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Services\\Authentication\\IAuthService.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Services\\Authentication\\IAuthService.cs",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Services\\Authentication\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T00:06:26.487Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "ValidationHelper.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Helpers\\ValidationHelper.cs",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Helpers\\ValidationHelper.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Helpers\\ValidationHelper.cs",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Helpers\\ValidationHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T00:15:48.039Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "HttpClientExtensions.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Extensions\\HttpClientExtensions.cs",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Extensions\\HttpClientExtensions.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Extensions\\HttpClientExtensions.cs",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Extensions\\HttpClientExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T00:16:10.087Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 66,
-              "Title": "Login.razor.css",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Pages\\Authentication\\Login.razor.css",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Pages\\Authentication\\Login.razor.css",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Pages\\Authentication\\Login.razor.css",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Pages\\Authentication\\Login.razor.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-01-15T00:58:13.13Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 67,
-              "Title": "MainLayout.razor.css",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Layout\\MainLayout.razor.css",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Layout\\MainLayout.razor.css",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Layout\\MainLayout.razor.css",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Layout\\MainLayout.razor.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-01-15T00:57:27.394Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 68,
-              "Title": "CryptoExchangeTrainingUI.csproj",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-14T23:59:10.881Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 69,
-              "Title": "NotificationList.razor",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Pages\\NotificationList\\NotificationList.razor",
-              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Pages\\NotificationList\\NotificationList.razor",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Pages\\NotificationList\\NotificationList.razor",
-              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Pages\\NotificationList\\NotificationList.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-14T07:57:38.346Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 4,
               "Title": "20250114071645_AddOrder.cs",
               "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Migrations\\20250114071645_AddOrder.cs",
               "RelativeDocumentMoniker": "Migrations\\20250114071645_AddOrder.cs",
@@ -1200,115 +408,535 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 1,
+              "Title": "MarketService.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Services\\MarketService.cs",
+              "RelativeDocumentMoniker": "Services\\MarketService.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Services\\MarketService.cs",
+              "RelativeToolTip": "Services\\MarketService.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAADwvyQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T04:25:44.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserAsset.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\UserAsset.cs",
+              "RelativeDocumentMoniker": "Models\\UserAsset.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\UserAsset.cs",
+              "RelativeToolTip": "Models\\UserAsset.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T01:14:04.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TradePage.razor",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Pages\\Assets\\TradePage.razor",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Pages\\Assets\\TradePage.razor",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Pages\\Assets\\TradePage.razor",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Pages\\Assets\\TradePage.razor",
+              "ViewState": "AgIAALIAAAAAAAAAAAAwwNcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T22:47:47.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TradeService.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Services\\Trade\\TradeService.cs",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Services\\Trade\\TradeService.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Services\\Trade\\TradeService.cs",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Services\\Trade\\TradeService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwDAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T23:50:01.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TradeDto.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\User\\TradeDto.cs",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Models\\User\\TradeDto.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\User\\TradeDto.cs",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Models\\User\\TradeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T04:56:54.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderBookResponse.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\OrderBookResponse.cs",
+              "RelativeDocumentMoniker": "Models\\OrderBookResponse.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\OrderBookResponse.cs",
+              "RelativeToolTip": "Models\\OrderBookResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T08:39:43.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Trade.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\Trade.cs",
+              "RelativeDocumentMoniker": "Models\\Trade.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\Trade.cs",
+              "RelativeToolTip": "Models\\Trade.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T01:13:10.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TradeDto.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\TradeDto.cs",
+              "RelativeDocumentMoniker": "Models\\TradeDto.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\TradeDto.cs",
+              "RelativeToolTip": "Models\\TradeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T05:26:26.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Token.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\Token.cs",
+              "RelativeDocumentMoniker": "Models\\Token.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\Token.cs",
+              "RelativeToolTip": "Models\\Token.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T05:23:52.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TradeController.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Controllers\\TradeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TradeController.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Controllers\\TradeController.cs",
+              "RelativeToolTip": "Controllers\\TradeController.cs",
+              "ViewState": "AgIAALwAAAAAAAAAAAAwwOEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T04:24:20.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TradeRequest.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\User\\TradeRequest.cs",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Models\\User\\TradeRequest.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\User\\TradeRequest.cs",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Models\\User\\TradeRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T23:48:42.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "ChartController .cs",
               "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Controllers\\ChartController .cs",
               "RelativeDocumentMoniker": "Controllers\\ChartController .cs",
               "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Controllers\\ChartController .cs",
               "RelativeToolTip": "Controllers\\ChartController .cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA9wCkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-14T07:12:20.897Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
-              "Title": "20250114071052_AddHistoricalData.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Migrations\\20250114071052_AddHistoricalData.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250114071052_AddHistoricalData.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Migrations\\20250114071052_AddHistoricalData.cs",
-              "RelativeToolTip": "Migrations\\20250114071052_AddHistoricalData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAIwKIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T07:10:53.234Z"
+              "WhenOpened": "2025-01-12T01:54:10.277Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
-              "Title": "JwtTokenService.cs",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Authentication\\JwtTokenService.cs",
-              "RelativeDocumentMoniker": "Authentication\\JwtTokenService.cs",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Authentication\\JwtTokenService.cs",
-              "RelativeToolTip": "Authentication\\JwtTokenService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "AssetController.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Controllers\\AssetController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AssetController.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Controllers\\AssetController.cs",
+              "RelativeToolTip": "Controllers\\AssetController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAADwv0YAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T01:51:26.358Z"
+              "WhenOpened": "2025-01-12T04:24:31.668Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
-              "Title": "nodemon.json",
-              "DocumentMoniker": "C:\\c#\\psp\\lab5\\lab5\\car-service\\nodemon.json",
-              "RelativeDocumentMoniker": "..\\..\\c#\\psp\\lab5\\lab5\\car-service\\nodemon.json",
-              "ToolTip": "C:\\c#\\psp\\lab5\\lab5\\car-service\\nodemon.json",
-              "RelativeToolTip": "..\\..\\c#\\psp\\lab5\\lab5\\car-service\\nodemon.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-13T13:26:55.047Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 73,
-              "Title": "package.json",
-              "DocumentMoniker": "C:\\c#\\psp\\lab5\\lab5\\contract-service\\package.json",
-              "RelativeDocumentMoniker": "..\\..\\c#\\psp\\lab5\\lab5\\contract-service\\package.json",
-              "ToolTip": "C:\\c#\\psp\\lab5\\lab5\\contract-service\\package.json",
-              "RelativeToolTip": "..\\..\\c#\\psp\\lab5\\lab5\\contract-service\\package.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-13T13:24:01.773Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 74,
-              "Title": "tsconfig.json",
-              "DocumentMoniker": "C:\\c#\\psp\\lab5\\lab5\\contract-service\\tsconfig.json",
-              "RelativeDocumentMoniker": "..\\..\\c#\\psp\\lab5\\lab5\\contract-service\\tsconfig.json",
-              "ToolTip": "C:\\c#\\psp\\lab5\\lab5\\contract-service\\tsconfig.json",
-              "RelativeToolTip": "..\\..\\c#\\psp\\lab5\\lab5\\contract-service\\tsconfig.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-13T13:25:24.155Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 75,
-              "Title": "package.json",
-              "DocumentMoniker": "C:\\c#\\psp\\lab5\\lab5\\client-service\\package.json",
-              "RelativeDocumentMoniker": "..\\..\\c#\\psp\\lab5\\lab5\\client-service\\package.json",
-              "ToolTip": "C:\\c#\\psp\\lab5\\lab5\\client-service\\package.json",
-              "RelativeToolTip": "..\\..\\c#\\psp\\lab5\\lab5\\client-service\\package.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-13T13:24:15.749Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 76,
-              "Title": "package.json",
-              "DocumentMoniker": "C:\\c#\\psp\\lab5\\lab5\\server\\package.json",
-              "RelativeDocumentMoniker": "..\\..\\c#\\psp\\lab5\\lab5\\server\\package.json",
-              "ToolTip": "C:\\c#\\psp\\lab5\\lab5\\server\\package.json",
-              "RelativeToolTip": "..\\..\\c#\\psp\\lab5\\lab5\\server\\package.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-13T12:32:59.004Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 77,
-              "Title": "CryptoExchangeTrainingAPI.csproj",
-              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\CryptoExchangeTrainingAPI.csproj",
-              "RelativeDocumentMoniker": "CryptoExchangeTrainingAPI.csproj",
-              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\CryptoExchangeTrainingAPI.csproj",
-              "RelativeToolTip": "CryptoExchangeTrainingAPI.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "CryptoExchangeTrainingUI.csproj",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\CryptoExchangeTrainingUI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-12T01:16:07.271Z"
+              "WhenOpened": "2025-01-14T23:59:10.881Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 20,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAIwI8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T04:24:11.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\Authentication\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Models\\Authentication\\LoginResponse.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\Authentication\\LoginResponse.cs",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Models\\Authentication\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T02:10:14.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DepositRequestDto.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\User\\DepositRequestDto.cs",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Models\\User\\DepositRequestDto.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\User\\DepositRequestDto.cs",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Models\\User\\DepositRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T05:03:02.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ITradeService.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Services\\Trade\\ITradeService.cs",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Services\\Trade\\ITradeService.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Services\\Trade\\ITradeService.cs",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Services\\Trade\\ITradeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T23:49:49.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Services\\NotificationService.cs",
+              "RelativeDocumentMoniker": "Services\\NotificationService.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Services\\NotificationService.cs",
+              "RelativeToolTip": "Services\\NotificationService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA9wC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T05:58:48.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PriceHub.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Services\\PriceHub.cs",
+              "RelativeDocumentMoniker": "Services\\PriceHub.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Services\\PriceHub.cs",
+              "RelativeToolTip": "Services\\PriceHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T07:27:22.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ICacheService.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Services\\ICacheService.cs",
+              "RelativeDocumentMoniker": "Services\\ICacheService.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Services\\ICacheService.cs",
+              "RelativeToolTip": "Services\\ICacheService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T12:41:31.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "NotificationController.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Controllers\\NotificationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NotificationController.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Controllers\\NotificationController.cs",
+              "RelativeToolTip": "Controllers\\NotificationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T04:24:49.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T01:12:17.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\_Imports.razor",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\_Imports.razor",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\_Imports.razor",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T00:43:41.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "HttpInterceptorService.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Services\\Http\\HttpInterceptorService.cs",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Services\\Http\\HttpInterceptorService.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Services\\Http\\HttpInterceptorService.cs",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Services\\Http\\HttpInterceptorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T00:15:09.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Services\\Authentication\\IAuthService.cs",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Services\\Authentication\\IAuthService.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Services\\Authentication\\IAuthService.cs",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Services\\Authentication\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T00:06:26.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CustomAuthenticationStateProvider.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Services\\Authentication\\CustomAuthenticationStateProvider.cs",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Services\\Authentication\\CustomAuthenticationStateProvider.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Services\\Authentication\\CustomAuthenticationStateProvider.cs",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Services\\Authentication\\CustomAuthenticationStateProvider.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAswFkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T00:24:20.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Services\\Authentication\\AuthService.cs",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Services\\Authentication\\AuthService.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Services\\Authentication\\AuthService.cs",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Services\\Authentication\\AuthService.cs",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAIwO0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T07:55:03.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\User\\UserDto.cs",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Models\\User\\UserDto.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\User\\UserDto.cs",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Models\\User\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T00:05:46.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UserAssetDto.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\User\\UserAssetDto.cs",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Models\\User\\UserAssetDto.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\User\\UserAssetDto.cs",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Models\\User\\UserAssetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T05:22:04.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "TokenDto.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\User\\TokenDto.cs",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Models\\User\\TokenDto.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\User\\TokenDto.cs",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Models\\User\\TokenDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T05:47:04.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "DepositResponseDto.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\User\\DepositResponseDto.cs",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Models\\User\\DepositResponseDto.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\User\\DepositResponseDto.cs",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Models\\User\\DepositResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T22:29:22.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AssetInfo.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\User\\AssetInfo.cs",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Models\\User\\AssetInfo.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\User\\AssetInfo.cs",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Models\\User\\AssetInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T22:13:02.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\Authentication\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Models\\Authentication\\RegisterRequest.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\Authentication\\RegisterRequest.cs",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Models\\Authentication\\RegisterRequest.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T00:05:07.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\Authentication\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Models\\Authentication\\LoginRequest.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\Authentication\\LoginRequest.cs",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Models\\Authentication\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T23:59:39.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ErrorDetails.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\Authentication\\ErrorDetails.cs",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Models\\Authentication\\ErrorDetails.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\Authentication\\ErrorDetails.cs",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Models\\Authentication\\ErrorDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T02:10:42.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AuthResponse.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\Authentication\\AuthResponse.cs",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Models\\Authentication\\AuthResponse.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\Authentication\\AuthResponse.cs",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Models\\Authentication\\AuthResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T23:59:44.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ValidationHelper.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Helpers\\ValidationHelper.cs",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Helpers\\ValidationHelper.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Helpers\\ValidationHelper.cs",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Helpers\\ValidationHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T00:15:48.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "JwtParser.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Helpers\\JwtParser.cs",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Helpers\\JwtParser.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Helpers\\JwtParser.cs",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Helpers\\JwtParser.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAswCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T00:15:51.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Helpers\\Constants.cs",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Helpers\\Constants.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Helpers\\Constants.cs",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Helpers\\Constants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T00:15:42.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Extensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Extensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwCIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T00:16:07.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "HttpClientExtensions.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Extensions\\HttpClientExtensions.cs",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Extensions\\HttpClientExtensions.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Extensions\\HttpClientExtensions.cs",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Extensions\\HttpClientExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T00:16:10.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ApiSettings.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Configuration\\ApiSettings.cs",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Configuration\\ApiSettings.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Configuration\\ApiSettings.cs",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Configuration\\ApiSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T00:16:24.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -1320,7 +948,535 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "IHttpRequestService.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Services\\IHttpRequestService.cs",
+              "RelativeDocumentMoniker": "Services\\IHttpRequestService.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Services\\IHttpRequestService.cs",
+              "RelativeToolTip": "Services\\IHttpRequestService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAkwCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T12:41:43.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "JwtTokenService.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Authentication\\JwtTokenService.cs",
+              "RelativeDocumentMoniker": "Authentication\\JwtTokenService.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Authentication\\JwtTokenService.cs",
+              "RelativeToolTip": "Authentication\\JwtTokenService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAADwvzEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T01:51:26.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "WebSocketController.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Controllers\\WebSocketController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WebSocketController.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Controllers\\WebSocketController.cs",
+              "RelativeToolTip": "Controllers\\WebSocketController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwFEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T07:02:21.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA9wDMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T01:16:22.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "20250115060736_RemovePriceFromToken.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Migrations\\20250115060736_RemovePriceFromToken.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250115060736_RemovePriceFromToken.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Migrations\\20250115060736_RemovePriceFromToken.cs",
+              "RelativeToolTip": "Migrations\\20250115060736_RemovePriceFromToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T06:07:36.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "AssetResponse.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\Response\\AssetResponse.cs",
+              "RelativeDocumentMoniker": "Models\\Response\\AssetResponse.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\Response\\AssetResponse.cs",
+              "RelativeToolTip": "Models\\Response\\AssetResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T07:39:54.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ProfileResponse.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\Response\\ProfileResponse.cs",
+              "RelativeDocumentMoniker": "Models\\Response\\ProfileResponse.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\Response\\ProfileResponse.cs",
+              "RelativeToolTip": "Models\\Response\\ProfileResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T07:39:40.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "DepositRequestDto.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\DepositRequestDto.cs",
+              "RelativeDocumentMoniker": "Models\\DepositRequestDto.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\DepositRequestDto.cs",
+              "RelativeToolTip": "Models\\DepositRequestDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T05:08:11.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "HistoricalData.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\HistoricalData.cs",
+              "RelativeDocumentMoniker": "Models\\HistoricalData.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\HistoricalData.cs",
+              "RelativeToolTip": "Models\\HistoricalData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T07:09:01.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Models\\LoginDto.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\LoginDto.cs",
+              "RelativeToolTip": "Models\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T02:03:38.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\Notification.cs",
+              "RelativeDocumentMoniker": "Models\\Notification.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\Notification.cs",
+              "RelativeToolTip": "Models\\Notification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T01:14:18.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "OpenTradeRequestDto.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\OpenTradeRequestDto.cs",
+              "RelativeDocumentMoniker": "Models\\OpenTradeRequestDto.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\OpenTradeRequestDto.cs",
+              "RelativeToolTip": "Models\\OpenTradeRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T05:20:26.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T07:16:09.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "Models\\RegisterDto.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Models\\RegisterDto.cs",
+              "RelativeToolTip": "Models\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T02:03:32.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Program.cs",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Program.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Program.cs",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwB4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T00:37:26.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Transactions.razor",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Pages\\Assets\\Transactions.razor",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Pages\\Assets\\Transactions.razor",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Pages\\Assets\\Transactions.razor",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Pages\\Assets\\Transactions.razor",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwEUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T05:17:04.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T00:33:21.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Register.razor",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Pages\\Authentication\\Register.razor",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Pages\\Authentication\\Register.razor",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Pages\\Authentication\\Register.razor",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Pages\\Authentication\\Register.razor",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAwwGUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-14T07:56:23.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Pages\\Authentication\\Login.razor",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Pages\\Authentication\\Login.razor",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Pages\\Authentication\\Login.razor",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Pages\\Authentication\\Login.razor",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-14T07:56:16.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\Common\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Models\\Common\\ApiResponse.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Models\\Common\\ApiResponse.cs",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Models\\Common\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T00:20:11.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "IApiErrorHandler.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Services\\Common\\IApiErrorHandler.cs",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Services\\Common\\IApiErrorHandler.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Services\\Common\\IApiErrorHandler.cs",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Services\\Common\\IApiErrorHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T00:15:22.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "ApiErrorHandler.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Services\\Common\\ApiErrorHandler.cs",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Services\\Common\\ApiErrorHandler.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Services\\Common\\ApiErrorHandler.cs",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Services\\Common\\ApiErrorHandler.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T00:23:10.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "ProfilePage.razor",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Pages\\Assets\\ProfilePage.razor",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Pages\\Assets\\ProfilePage.razor",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Pages\\Assets\\ProfilePage.razor",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Pages\\Assets\\ProfilePage.razor",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAJ4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T04:48:22.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Pages\\Index.razor",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Pages\\Index.razor",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Pages\\Index.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T00:36:23.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\App.razor",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\App.razor",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\App.razor",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T00:36:59.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "ConfirmDialog.razor",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Pages\\Assets\\ConfirmDialog.razor",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Pages\\Assets\\ConfirmDialog.razor",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Pages\\Assets\\ConfirmDialog.razor",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Pages\\Assets\\ConfirmDialog.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T00:40:19.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\wwwroot\\index.html",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\wwwroot\\index.html",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\wwwroot\\index.html",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-16T00:29:32.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAwwEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T00:34:58.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\wwwroot\\css\\app.css",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\wwwroot\\css\\app.css",
+              "ViewState": "AgIAADQAAAAAAAAAAAAQwFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-15T00:50:12.647Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 79,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\wwwroot\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\wwwroot\\appsettings.json",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\wwwroot\\appsettings.json",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\wwwroot\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-16T00:24:17.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "20250115053917_AddTableToken.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Migrations\\20250115053917_AddTableToken.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250115053917_AddTableToken.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Migrations\\20250115053917_AddTableToken.cs",
+              "RelativeToolTip": "Migrations\\20250115053917_AddTableToken.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwD0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T05:39:17.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "NavMenu.razor.css",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Layout\\NavMenu.razor.css",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Layout\\NavMenu.razor.css",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Layout\\NavMenu.razor.css",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Layout\\NavMenu.razor.css",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-15T00:57:46.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "ErrorDisplay.razor",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Layout\\ErrorDisplay.razor",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Layout\\ErrorDisplay.razor",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Layout\\ErrorDisplay.razor",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Layout\\ErrorDisplay.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T00:14:03.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "LoadingSpinner.razor",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Layout\\LoadingSpinner.razor",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Layout\\LoadingSpinner.razor",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Layout\\LoadingSpinner.razor",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Layout\\LoadingSpinner.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T00:13:57.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "Login.razor.css",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Pages\\Authentication\\Login.razor.css",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Pages\\Authentication\\Login.razor.css",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Pages\\Authentication\\Login.razor.css",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Pages\\Authentication\\Login.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-15T00:58:13.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "MainLayout.razor.css",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Layout\\MainLayout.razor.css",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Layout\\MainLayout.razor.css",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Layout\\MainLayout.razor.css",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Layout\\MainLayout.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-15T00:57:27.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "NotificationList.razor",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Pages\\NotificationList\\NotificationList.razor",
+              "RelativeDocumentMoniker": "..\\CryptoExchangeTrainingUI\\Pages\\NotificationList\\NotificationList.razor",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingUI\\Pages\\NotificationList\\NotificationList.razor",
+              "RelativeToolTip": "..\\CryptoExchangeTrainingUI\\Pages\\NotificationList\\NotificationList.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-14T07:57:38.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "20250114071052_AddHistoricalData.cs",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Migrations\\20250114071052_AddHistoricalData.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250114071052_AddHistoricalData.cs",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Migrations\\20250114071052_AddHistoricalData.cs",
+              "RelativeToolTip": "Migrations\\20250114071052_AddHistoricalData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T07:10:53.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "nodemon.json",
+              "DocumentMoniker": "C:\\c#\\psp\\lab5\\lab5\\car-service\\nodemon.json",
+              "RelativeDocumentMoniker": "..\\..\\c#\\psp\\lab5\\lab5\\car-service\\nodemon.json",
+              "ToolTip": "C:\\c#\\psp\\lab5\\lab5\\car-service\\nodemon.json",
+              "RelativeToolTip": "..\\..\\c#\\psp\\lab5\\lab5\\car-service\\nodemon.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-13T13:26:55.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\c#\\psp\\lab5\\lab5\\contract-service\\package.json",
+              "RelativeDocumentMoniker": "..\\..\\c#\\psp\\lab5\\lab5\\contract-service\\package.json",
+              "ToolTip": "C:\\c#\\psp\\lab5\\lab5\\contract-service\\package.json",
+              "RelativeToolTip": "..\\..\\c#\\psp\\lab5\\lab5\\contract-service\\package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-13T13:24:01.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "tsconfig.json",
+              "DocumentMoniker": "C:\\c#\\psp\\lab5\\lab5\\contract-service\\tsconfig.json",
+              "RelativeDocumentMoniker": "..\\..\\c#\\psp\\lab5\\lab5\\contract-service\\tsconfig.json",
+              "ToolTip": "C:\\c#\\psp\\lab5\\lab5\\contract-service\\tsconfig.json",
+              "RelativeToolTip": "..\\..\\c#\\psp\\lab5\\lab5\\contract-service\\tsconfig.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-13T13:25:24.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\c#\\psp\\lab5\\lab5\\client-service\\package.json",
+              "RelativeDocumentMoniker": "..\\..\\c#\\psp\\lab5\\lab5\\client-service\\package.json",
+              "ToolTip": "C:\\c#\\psp\\lab5\\lab5\\client-service\\package.json",
+              "RelativeToolTip": "..\\..\\c#\\psp\\lab5\\lab5\\client-service\\package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-13T13:24:15.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\c#\\psp\\lab5\\lab5\\server\\package.json",
+              "RelativeDocumentMoniker": "..\\..\\c#\\psp\\lab5\\lab5\\server\\package.json",
+              "ToolTip": "C:\\c#\\psp\\lab5\\lab5\\server\\package.json",
+              "RelativeToolTip": "..\\..\\c#\\psp\\lab5\\lab5\\server\\package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-13T12:32:59.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "CryptoExchangeTrainingAPI.csproj",
+              "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\CryptoExchangeTrainingAPI.csproj",
+              "RelativeDocumentMoniker": "CryptoExchangeTrainingAPI.csproj",
+              "ToolTip": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\CryptoExchangeTrainingAPI.csproj",
+              "RelativeToolTip": "CryptoExchangeTrainingAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-12T01:16:07.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
               "Title": "20250112040753_IdentitySetup.cs",
               "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Migrations\\20250112040753_IdentitySetup.cs",
               "RelativeDocumentMoniker": "Migrations\\20250112040753_IdentitySetup.cs",
@@ -1332,7 +1488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 93,
               "Title": "20250112040628_IdentitySetup.cs",
               "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Migrations\\20250112040628_IdentitySetup.cs",
               "RelativeDocumentMoniker": "Migrations\\20250112040628_IdentitySetup.cs",
@@ -1344,7 +1500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 94,
               "Title": "20250112040212_IdentitySetup1.cs",
               "DocumentMoniker": "C:\\CryptoExchangeTraining\\CryptoExchangeTrainingAPI\\Migrations\\20250112040212_IdentitySetup1.cs",
               "RelativeDocumentMoniker": "Migrations\\20250112040212_IdentitySetup1.cs",

@@ -42,7 +42,24 @@ namespace CryptoExchangeTrainingAPI.Controllers
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] RegisterDto model)
         {
-            if (!ModelState.IsValid) return BadRequest("Неверные данные.");
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(new
+                {
+                    Success = false,
+                    Message = "Неверные данные."
+                });
+            }
+
+            var userExists = await _userManager.FindByEmailAsync(model.Email);
+            if (userExists != null)
+            {
+                return BadRequest(new
+                {
+                    Success = false,
+                    Errors = new List<string> { "Email already registered" }
+                });
+            }
 
             var user = new User
             {
@@ -55,10 +72,19 @@ namespace CryptoExchangeTrainingAPI.Controllers
 
             if (!result.Succeeded)
             {
-                return BadRequest(result.Errors);
+                var errors = result.Errors.Select(e => e.Description).ToList();
+                return BadRequest(new
+                {
+                    Success = false,
+                    Errors = errors
+                });
             }
 
-            return Ok("Пользователь успешно зарегистрирован.");
+            return Ok(new
+            {
+                Success = true,
+                Message = "Пользователь успешно зарегистрирован."
+            });
         }
 
         /// <summary>

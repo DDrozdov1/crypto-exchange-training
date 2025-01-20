@@ -11,7 +11,7 @@
   },
   {
     "ContainingType": "CryptoExchangeTrainingAPI.Controllers.AssetController",
-    "Method": "DepositAsset",
+    "Method": "Deposit",
     "RelativePath": "api/Asset/deposit",
     "HttpMethod": "POST",
     "IsController": true,
@@ -139,16 +139,6 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "CryptoExchangeTrainingAPI.Controllers.TokenController",
-    "Method": "GetTokens",
-    "RelativePath": "api/Token",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
     "ReturnTypes": []
   },
   {

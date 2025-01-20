@@ -9,9 +9,7 @@ public class CustomAuthenticationStateProvider : AuthenticationStateProvider
     private readonly ILocalStorageService _localStorage;
     private readonly HttpClient _httpClient;
 
-    public CustomAuthenticationStateProvider(
-        ILocalStorageService localStorage,
-        HttpClient httpClient)
+    public CustomAuthenticationStateProvider(ILocalStorageService localStorage, HttpClient httpClient)
     {
         _localStorage = localStorage;
         _httpClient = httpClient;
@@ -26,33 +24,9 @@ public class CustomAuthenticationStateProvider : AuthenticationStateProvider
             return new AuthenticationState(new ClaimsPrincipal(new ClaimsIdentity()));
         }
 
-        var claims = ParseClaimsFromJwt(token);
-        var email = claims.FirstOrDefault(c => c.Type == "email")?.Value;
+        _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
-        var identity = new ClaimsIdentity(claims, "jwt");
-        var user = new ClaimsPrincipal(identity);
-
-        _httpClient.DefaultRequestHeaders.Authorization =
-            new AuthenticationHeaderValue("Bearer", token);
-
-        return new AuthenticationState(user);
-    }
-
-    public void NotifyUserAuthentication(string token)
-    {
-        var claims = ParseClaimsFromJwt(token);
-        var identity = new ClaimsIdentity(claims, "jwt");
-        var user = new ClaimsPrincipal(identity);
-
-        NotifyAuthenticationStateChanged(Task.FromResult(new AuthenticationState(user)));
-    }
-
-    public void NotifyUserLogout()
-    {
-        var identity = new ClaimsIdentity();
-        var user = new ClaimsPrincipal(identity);
-
-        NotifyAuthenticationStateChanged(Task.FromResult(new AuthenticationState(user)));
+        return new AuthenticationState(new ClaimsPrincipal(new ClaimsIdentity(ParseClaimsFromJwt(token), "jwt")));
     }
 
     private IEnumerable<Claim> ParseClaimsFromJwt(string jwt)
@@ -64,14 +38,27 @@ public class CustomAuthenticationStateProvider : AuthenticationStateProvider
 
         if (keyValuePairs != null)
         {
-            claims.AddRange(keyValuePairs.Select(kvp => new Claim(kvp.Key, kvp.Value.ToString() ?? string.Empty)));
+            keyValuePairs.TryGetValue(ClaimTypes.Role, out object roles);
 
-            // Добавляем email как Name claim если он есть
-            var email = keyValuePairs.GetValueOrDefault("email")?.ToString();
-            if (!string.IsNullOrEmpty(email))
+            if (roles != null)
             {
-                claims.Add(new Claim(ClaimTypes.Name, email));
+                if (roles.ToString().Trim().StartsWith("["))
+                {
+                    var parsedRoles = JsonSerializer.Deserialize<string[]>(roles.ToString());
+                    foreach (var parsedRole in parsedRoles)
+                    {
+                        claims.Add(new Claim(ClaimTypes.Role, parsedRole));
+                    }
+                }
+                else
+                {
+                    claims.Add(new Claim(ClaimTypes.Role, roles.ToString()));
+                }
+
+                keyValuePairs.Remove(ClaimTypes.Role);
             }
+
+            claims.AddRange(keyValuePairs.Select(kvp => new Claim(kvp.Key, kvp.Value.ToString())));
         }
 
         return claims;
@@ -85,5 +72,19 @@ public class CustomAuthenticationStateProvider : AuthenticationStateProvider
             case 3: base64 += "="; break;
         }
         return Convert.FromBase64String(base64);
+    }
+
+    public void NotifyUserAuthentication(string token)
+    {
+        var authenticatedUser = new ClaimsPrincipal(new ClaimsIdentity(ParseClaimsFromJwt(token), "jwt"));
+        var authState = Task.FromResult(new AuthenticationState(authenticatedUser));
+        NotifyAuthenticationStateChanged(authState);
+    }
+
+    public void NotifyUserLogout()
+    {
+        var anonymousUser = new ClaimsPrincipal(new ClaimsIdentity());
+        var authState = Task.FromResult(new AuthenticationState(anonymousUser));
+        NotifyAuthenticationStateChanged(authState);
     }
 }

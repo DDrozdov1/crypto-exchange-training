@@ -4,36 +4,6 @@
         <name>CryptoExchangeTrainingAPI</name>
     </assembly>
     <members>
-        <member name="T:CryptoExchangeTrainingAPI.Controllers.AssetController">
-            <summary>
-            Контроллер для управления активами пользователя.
-            </summary>
-        </member>
-        <member name="M:CryptoExchangeTrainingAPI.Controllers.AssetController.#ctor(CryptoExchangeTrainingAPI.Data.ApplicationDbContext)">
-            <summary>
-            Конструктор контроллера AssetController.
-            </summary>
-            <param name="context">Контекст базы данных.</param>
-        </member>
-        <member name="M:CryptoExchangeTrainingAPI.Controllers.AssetController.GetUserAssets">
-            <summary>
-            Получить список активов пользователя.
-            </summary>
-            <returns>Список активов текущего пользователя.</returns>
-            <response code="200">Список активов успешно получен.</response>
-            <response code="401">Пользователь не авторизован.</response>
-        </member>
-        <member name="M:CryptoExchangeTrainingAPI.Controllers.AssetController.DepositAsset(CryptoExchangeTrainingAPI.Models.DepositRequestDto)">
-            <summary>
-            Пополнить баланс актива пользователя.
-            </summary>
-            <param name="request">Запрос на пополнение баланса актива.</param>
-            <returns>Обновленный баланс актива пользователя.</returns>
-            <response code="200">Баланс актива успешно пополнен.</response>
-            <response code="400">Некорректные данные для пополнения.</response>
-            <response code="401">Пользователь не авторизован.</response>
-            <response code="404">Актив не найден.</response>
-        </member>
         <member name="T:CryptoExchangeTrainingAPI.Controllers.AuthController">
             <summary>
             Контроллер для управления аутентификацией и регистрацией пользователей.
@@ -126,6 +96,7 @@
             </summary>
             <param name="context">Контекст базы данных.</param>
             <param name="marketService">Сервис для получения рыночных данных.</param>
+            <param name="notificationService">Сервис для отправки уведомлений.</param>
         </member>
         <member name="M:CryptoExchangeTrainingAPI.Controllers.TradeController.GetTradeHistory">
             <summary>
@@ -146,42 +117,6 @@
             </summary>
             <param name="id">ID сделки.</param>
             <returns>Информация о закрытой сделке.</returns>
-        </member>
-        <member name="T:CryptoExchangeTrainingAPI.Controllers.UserController">
-            <summary>
-            Контроллер для управления пользователями.
-            </summary>
-        </member>
-        <member name="M:CryptoExchangeTrainingAPI.Controllers.UserController.#ctor(CryptoExchangeTrainingAPI.Data.ApplicationDbContext)">
-            <summary>
-            Конструктор UserController.
-            </summary>
-            <param name="context">Контекст базы данных.</param>
-        </member>
-        <member name="M:CryptoExchangeTrainingAPI.Controllers.UserController.GetProfile">
-            <summary>
-            Получить профиль текущего пользователя.
-            </summary>
-            <returns>Данные профиля пользователя.</returns>
-            <response code="200">Профиль успешно получен.</response>
-            <response code="401">Пользователь не авторизован.</response>        
-        </member>
-        <member name="M:CryptoExchangeTrainingAPI.Controllers.UserController.Deposit(CryptoExchangeTrainingAPI.Models.DepositRequestDto)">
-            <summary>
-            Пополнить баланс пользователя.
-            </summary>
-            <param name="request">Сумма для пополнения.</param>
-            <returns>Обновленный баланс пользователя.</returns>
-            <response code="200">Баланс успешно пополнен.</response>
-            <response code="400">Некорректные данные для пополнения.</response>
-        </member>
-        <member name="M:CryptoExchangeTrainingAPI.Controllers.UserController.GetTransactionHistory">
-            <summary>
-            Получить историю сделок пользователя.
-            </summary>
-            <returns>Список сделок текущего пользователя.</returns>
-            <response code="200">История сделок успешно получена.</response>
-            <response code="401">Пользователь не авторизован.</response>
         </member>
         <member name="T:CryptoExchangeTrainingAPI.Migrations.IdentitySetup">
             <inheritdoc />

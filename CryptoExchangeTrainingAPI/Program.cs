@@ -17,9 +17,11 @@ builder.Services.AddSwaggerGen(c =>
 {
     c.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, $"{Assembly.GetExecutingAssembly().GetName().Name}.xml"));
 });
+builder.Services.AddHostedService<TradeMonitoringService>();
 // Настройка подключения к базе данных
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"))
+           .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking)); // Оптимизация запросов
 
 // Настройка Identity
 builder.Services.AddIdentity<User, IdentityRole>()
@@ -32,7 +34,11 @@ builder.Services.Configure<IdentityOptions>(options =>
     options.Password.RequireUppercase = true;
     options.Password.RequireNonAlphanumeric = true;
     options.Password.RequiredLength = 8;
+    options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5); // Блокировка после неудачных попыток входа
+    options.Lockout.MaxFailedAccessAttempts = 5; // Максимальное количество попыток
+    options.User.RequireUniqueEmail = true; // Требование уникального email
 });
+
 // Настройка JWT
 var jwtSettings = builder.Configuration.GetSection("JwtSettings");
 var key = Encoding.UTF8.GetBytes(jwtSettings["Secret"]);
@@ -50,15 +56,16 @@ builder.Services.AddAuthentication(options =>
         ValidateIssuerSigningKey = true,
         ValidIssuer = jwtSettings["Issuer"],
         ValidAudience = jwtSettings["Audience"],
-        IssuerSigningKey = new SymmetricSecurityKey(key)
+        IssuerSigningKey = new SymmetricSecurityKey(key),
+        ClockSkew = TimeSpan.Zero // Убираем дополнительное время жизни токена
     };
 });
 
-// Регистрация сервиса MarketService
-builder.Services.AddHttpClient<IMarketService, MarketService>();
+// Регистрация сервисов
+builder.Services.AddHttpClient<IHttpRequestService, HttpRequestService>();
+builder.Services.AddSingleton<ICacheService, CacheService>();
+builder.Services.AddScoped<IMarketService, MarketService>(); 
 builder.Services.AddScoped<INotificationService, NotificationService>();
-
-// Регистрация JwtTokenService
 builder.Services.AddScoped<JwtTokenService>();
 
 // Добавление контроллеров
@@ -67,19 +74,25 @@ builder.Services.AddControllers()
     {
         options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
         options.JsonSerializerOptions.DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull;
+        options.JsonSerializerOptions.PropertyNamingPolicy = System.Text.Json.JsonNamingPolicy.CamelCase; // Используем camelCase
+        options.JsonSerializerOptions.PropertyNameCaseInsensitive = true;
+
     });
 
+// Настройка CORS
+// Добавление CORS
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAll",
-        builder =>
+    options.AddPolicy("AllowSpecificOrigins",
+        policy =>
         {
-            builder
-                .AllowAnyOrigin()
-                .AllowAnyMethod()
-                .AllowAnyHeader();
+            policy.WithOrigins("https://localhost:7160") 
+                  .AllowAnyHeader()
+                  .AllowAnyMethod()
+                  .AllowCredentials(); 
         });
 });
+
 
 var app = builder.Build();
 
@@ -91,8 +104,11 @@ if (app.Environment.IsDevelopment())
 }
 else
 {
-    app.UseHttpsRedirection(); // перенаправление HTTP на HTTPS
+    app.UseHttpsRedirection(); // Перенаправление HTTP на HTTPS
 }
+
+// Использование CORS
+app.UseCors("AllowSpecificOrigins");
 
 // Использование аутентификации и авторизации
 app.UseAuthentication();
@@ -103,8 +119,6 @@ app.UseWebSockets();
 
 // Маршруты для контроллеров
 app.MapControllers();
-
-app.UseCors("AllowAll");
 
 // Запуск приложения
 app.Run();

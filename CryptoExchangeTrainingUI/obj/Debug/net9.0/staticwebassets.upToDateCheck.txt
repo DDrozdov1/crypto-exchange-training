@@ -37,6 +37,7 @@ C:\CryptoExchangeTraining\CryptoExchangeTrainingUI\wwwroot\lib\bootstrap\dist\js
 C:\CryptoExchangeTraining\CryptoExchangeTrainingUI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
 C:\CryptoExchangeTraining\CryptoExchangeTrainingUI\wwwroot\index.html
 C:\CryptoExchangeTraining\CryptoExchangeTrainingUI\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+C:\CryptoExchangeTraining\CryptoExchangeTrainingUI\wwwroot\appsettings.json
 C:\CryptoExchangeTraining\CryptoExchangeTrainingUI\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
 C:\CryptoExchangeTraining\CryptoExchangeTrainingUI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
 C:\CryptoExchangeTraining\CryptoExchangeTrainingUI\wwwroot\lib\bootstrap\dist\css\bootstrap.css
@@ -44,6 +45,7 @@ C:\CryptoExchangeTraining\CryptoExchangeTrainingUI\wwwroot\lib\bootstrap\dist\js
 C:\CryptoExchangeTraining\CryptoExchangeTrainingUI\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
 C:\CryptoExchangeTraining\CryptoExchangeTrainingUI\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
 C:\CryptoExchangeTraining\CryptoExchangeTrainingUI\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+wwwroot\appsettings.json
 wwwroot\css\app.css
 wwwroot\index.html
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

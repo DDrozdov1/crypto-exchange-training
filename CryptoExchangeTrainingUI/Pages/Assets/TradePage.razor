@@ -1,0 +1,215 @@
+﻿@page "/trade"
+@using CryptoExchangeTrainingUI.Services.Trade
+@using CryptoExchangeTrainingUI.Models.User
+@using MudBlazor
+@using System.Timers
+@inject ITradeService TradeService
+@inject ISnackbar Snackbar
+@implements IDisposable
+@inject NavigationManager NavigationManager
+@attribute [Authorize]
+
+<MudContainer MaxWidth="MaxWidth.Large" Class="mt-4">
+    <MudGrid>
+        <!-- Секция торговли -->
+        <MudItem xs="12" md="8">
+            <MudCard>
+                <MudCardHeader>
+                    <MudText Typo="Typo.h5">Торговля</MudText>
+                </MudCardHeader>
+                <MudCardContent>
+                    <EditForm Model="@tradeRequest" OnValidSubmit="HandleTradeSubmit">
+                        <DataAnnotationsValidator />
+                        <MudGrid>
+                            <MudItem xs="12" md="6">
+                                <MudSelect T="string" Label="Торговая пара"
+                                           @bind-Value="tradeRequest.Pair">
+                                    @foreach (var pair in tradingPairs)
+                                    {
+                                        <MudSelectItem Value="@pair">@pair</MudSelectItem>
+                                    }
+                                </MudSelect>
+                            </MudItem>
+                            <MudItem xs="12" md="6">
+                                <MudSelect T="string" Label="Тип сделки" @bind-Value="tradeRequest.Type">
+                                    <MudSelectItem Value="@("buy")">Покупка</MudSelectItem>
+                                    <MudSelectItem Value="@("sell")">Продажа</MudSelectItem>
+                                </MudSelect>
+                            </MudItem>
+                            <MudItem xs="12" md="6">
+                                <MudNumericField @bind-Value="tradeRequest.Amount"
+                                                 Label="Объём"
+                                                 Min="0"
+                                                 Format="N8" />
+                            </MudItem>
+                            <MudItem xs="12" md="6">
+                                <MudNumericField @bind-Value="tradeRequest.Leverage"
+                                                 Label="Плечо"
+                                                 Min="1"
+                                                 Max="100" />
+                            </MudItem>
+                            <MudItem xs="12" md="6">
+                                <MudNumericField @bind-Value="tradeRequest.StopLoss"
+                                                 Label="Stop Loss"
+                                                 Format="N2" />
+                            </MudItem>
+                            <MudItem xs="12" md="6">
+                                <MudNumericField @bind-Value="tradeRequest.TakeProfit"
+                                                 Label="Take Profit"
+                                                 Format="N2" />
+                            </MudItem>
+                        </MudGrid>
+                        <MudButton ButtonType="ButtonType.Submit"
+                                   Variant="Variant.Filled"
+                                   Color="Color.Primary"
+                                   Class="mt-4">
+                            Открыть сделку
+                        </MudButton>
+                    </EditForm>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+
+        <!-- Секция активных сделок -->
+        <MudItem xs="12">
+            <MudCard>
+                <MudCardHeader>
+                    <MudText Typo="Typo.h5">Активные сделки</MudText>
+                </MudCardHeader>
+                <MudCardContent>
+                    @if (activeTrades == null)
+                    {
+                        <MudProgressCircular Color="Color.Primary" Indeterminate="true" />
+                    }
+                    else
+                    {
+                        <MudTable Items="@activeTrades" Dense="true" Hover="true">
+                            <HeaderContent>
+                                <MudTh>ID</MudTh>
+                                <MudTh>Пара</MudTh>
+                                <MudTh>Тип</MudTh>
+                                <MudTh>Объём</MudTh>
+                                <MudTh>Цена входа</MudTh>
+                                <MudTh>Stop Loss</MudTh>
+                                <MudTh>Take Profit</MudTh>
+                                <MudTh>Действия</MudTh>
+                            </HeaderContent>
+                            <RowTemplate>
+                                <MudTd>@context.Id</MudTd>
+                                <MudTd>@context.Pair</MudTd>
+                                <MudTd>@context.Type</MudTd>
+                                <MudTd>@context.Amount</MudTd>
+                                <MudTd>@context.EntryPrice</MudTd>
+                                <MudTd>@context.StopLoss</MudTd>
+                                <MudTd>@context.TakeProfit</MudTd>
+                                <MudTd>
+                                    <MudButton Color="Color.Error"
+                                               Size="Size.Small"
+                                               Variant="Variant.Filled"
+                                               OnClick="@(() => CloseTrade(context.Id))">
+                                        Закрыть
+                                    </MudButton>
+                                </MudTd>
+                            </RowTemplate>
+                        </MudTable>
+                    }
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+    </MudGrid>
+</MudContainer>
+<style>
+    .mud-table {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .mud-paper {
+        background-color: var(--mud-palette-surface);
+    }
+
+    .mud-input {
+        margin-bottom: 8px;
+    }
+</style>
+@code {
+    private TradeRequest tradeRequest = new();
+    private List<TradeDto> activeTrades;
+    private List<string> tradingPairs = new() { "BTCUSDT", "ETHUSDT", "BNBUSDT" };
+    private Timer _timer;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadActiveTrades();
+        // Создаем таймер для обновления каждые 30 секунд
+        _timer = new Timer(30000);
+        _timer.Elapsed += TimerElapsed;
+        _timer.Start();
+    }
+
+    // Отдельный метод для обработки события таймера
+    private async void TimerElapsed(object sender, ElapsedEventArgs e)
+    {
+        await LoadActiveTrades();
+        await InvokeAsync(StateHasChanged);
+    }
+
+    public void Dispose()
+    {
+        if (_timer != null)
+        {
+            _timer.Elapsed -= TimerElapsed;
+            _timer.Dispose();
+        }
+    }
+
+    private async Task LoadActiveTrades()
+    {
+        try
+        {
+            var trades = await TradeService.GetActiveTradesAsync();
+            await InvokeAsync(() =>
+            {
+                activeTrades = trades;
+                StateHasChanged();
+            });
+        }
+        catch (Exception ex)
+        {
+            Snackbar.Add($"Ошибка при загрузке сделок: {ex.Message}", Severity.Error);
+        }
+    }
+
+    private async Task HandleTradeSubmit()
+    {
+        try
+        {
+            await TradeService.OpenTradeAsync(tradeRequest);
+            Snackbar.Add("Сделка успешно открыта", Severity.Success);
+            await LoadActiveTrades();
+            tradeRequest = new TradeRequest();
+        }
+        catch (Exception ex)
+        {
+            Snackbar.Add($"Ошибка при открытии сделки: {ex.Message}", Severity.Error);
+        }
+    }
+
+    private async Task CloseTrade(int tradeId)
+    {
+        try
+        {
+            var result = await TradeService.CloseTradeAsync(tradeId);
+            if (result != null)
+            {
+                activeTrades.RemoveAll(t => t.Id == tradeId);
+                StateHasChanged();
+                Snackbar.Add("Сделка успешно закрыта", Severity.Success);
+            }
+        }
+        catch (Exception ex)
+        {
+            Snackbar.Add($"Ошибка при закрытии сделки: {ex.Message}", Severity.Error);
+        }
+    }
+}

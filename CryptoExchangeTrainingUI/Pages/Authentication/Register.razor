@@ -8,8 +8,8 @@
 
         @if (!string.IsNullOrEmpty(message))
         {
-            <div class="alert alert-info">
-                @message
+            <div class="alert alert-@messageType">
+                @((MarkupString)message)
             </div>
         }
 
@@ -53,20 +53,45 @@
     private RegisterRequest registerRequest = new();
     private bool isLoading;
     private string message = string.Empty;
+    private string messageType = "info"; // Тип сообщения: info, success, danger и т.д.
 
     private async Task HandleRegister()
     {
         try
         {
             isLoading = true;
+            message = string.Empty;
+
+            // Assuming Register now returns an ExpandoObject or similar dynamic object
             var response = await AuthService.Register(registerRequest);
 
             if (response.Success)
             {
-                message = "Registration successful";
+                messageType = "success";
+                message = response.Message;
                 await Task.Delay(2000); // Небольшая задержка для отображения сообщения
                 NavigationManager.NavigateTo("/login");
             }
+            else
+            {
+                messageType = "danger";
+                message = response.Message ?? "Registration failed. Please try again.";
+
+                if (response.Errors != null && response.Errors.Any())
+                {
+                    message += "<ul>";
+                    foreach (var error in response.Errors)
+                    {
+                        message += $"<li>{error}</li>";
+                    }
+                    message += "</ul>";
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            messageType = "danger";
+            message = $"An error occurred: {ex.Message}";
         }
         finally
         {

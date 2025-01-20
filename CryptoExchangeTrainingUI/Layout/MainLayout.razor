@@ -1,40 +1,63 @@
 ﻿@inherits LayoutComponentBase
+@using MudBlazor
 
-<div class="page">
-    <div class="sidebar bg-dark text-white">
-        <NavMenu />
-    </div>
+<MudThemeProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
 
-    <main>
-        <div class="top-row px-4 bg-light">
-            <AuthorizeView>
-                <Authorized>
-                    <span class="oi oi-person" aria-hidden="true"></span>
+<MudLayout>
+    <MudAppBar Elevation="1" Color="Color.Primary">
+        <MudIconButton Icon="@Icons.Material.Filled.Menu"
+                       Color="Color.Inherit"
+                       Edge="Edge.Start"
+                       OnClick="@(() => _drawerOpen = !_drawerOpen)" />
+        <MudText Typo="Typo.h6">Crypto Exchange Training</MudText>
+        <MudSpacer />
+        <AuthorizeView>
+            <Authorized>
+                <MudStack Row="true" AlignItems="AlignItems.Center">
+                    <MudIcon Icon="@Icons.Material.Filled.Person" />
                     @{
                         var fullEmail = context.User.Identity?.Name ?? "";
                         var displayName = fullEmail.Contains("@") ? fullEmail.Split('@')[0] : fullEmail;
                     }
-                    <span class="mx-2">@displayName</span>
-                    <button class="btn btn-link text-danger" @onclick="HandleLogout">Logout</button>
-                </Authorized>
-                <NotAuthorized>
-                    <a href="/login">Login</a>
-                </NotAuthorized>
-            </AuthorizeView>
-        </div>
+                    <MudText Class="mx-2">@displayName</MudText>
+                    <MudButton Color="Color.Error"
+                               Variant="Variant.Text"
+                               OnClick="HandleLogout">
+                        Выйти
+                    </MudButton>
+                </MudStack>
+            </Authorized>
+            <NotAuthorized>
+                <MudButton Color="Color.Inherit"
+                           Href="/login"
+                           Variant="Variant.Text">
+                    Войти
+                </MudButton>
+            </NotAuthorized>
+        </AuthorizeView>
+    </MudAppBar>
 
-        <article class="content px-4">
+    <MudDrawer @bind-Open="_drawerOpen"
+               Elevation="2"
+               ClipMode="DrawerClipMode.Always"
+               Color="Color.Dark">
+        <NavMenu />
+    </MudDrawer>
+
+    <MudMainContent>
+        <MudContainer MaxWidth="MaxWidth.Large" Class="pa-6">
             @Body
-        </article>
-    </main>
-</div>
+        </MudContainer>
+    </MudMainContent>
+</MudLayout>
 
 @code {
-    [Inject]
-    private IAuthService AuthService { get; set; } = default!;
+    [Inject] private IAuthService AuthService { get; set; } = default!;
+    [Inject] private NavigationManager NavigationManager { get; set; } = default!;
 
-    [Inject]
-    private NavigationManager NavigationManager { get; set; } = default!;
+    private bool _drawerOpen = true;
 
     private async Task HandleLogout()
     {

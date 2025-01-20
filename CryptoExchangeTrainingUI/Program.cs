@@ -6,6 +6,8 @@ using CryptoExchangeTrainingUI.Services.Common;
 using CryptoExchangeTrainingUI;
 using Microsoft.AspNetCore.Components.Web;
 using System.Net.Http.Headers;
+using CryptoExchangeTrainingUI.Services.Trade;
+using MudBlazor.Services;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
@@ -26,11 +28,13 @@ builder.Services.AddScoped(sp =>
 });
 
 // Сервисы
+builder.Services.AddScoped<ITradeService, TradeService>();
 builder.Services.AddBlazoredLocalStorage();
 builder.Services.AddAuthorizationCore();
 builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStateProvider>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IApiErrorHandler, ApiErrorHandler>();
+builder.Services.AddMudServices();
 
 // Логирование
 builder.Logging.SetMinimumLevel(LogLevel.Information);
